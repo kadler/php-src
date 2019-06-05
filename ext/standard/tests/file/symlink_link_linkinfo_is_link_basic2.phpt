@@ -76,7 +76,7 @@ rmdir($dirname);
 
 -- Testing on soft links --
 bool(true)
-int(%d)
+int(%i)
 bool(true)
 
 -- Testing on hard links --

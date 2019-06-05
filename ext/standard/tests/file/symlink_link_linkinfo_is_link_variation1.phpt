@@ -114,23 +114,23 @@ rmdir($dirname);
 
 -- Working with soft links --
 bool(true)
-int(%d)
+int(%i)
 bool(true)
 
 -- Working with hard links --
 bool(true)
-int(%d)
+int(%i)
 bool(false)
 
 *** Testing symlink(), link(), linkinfo() and is_link() with linknames stored as members of an array ***
 
 -- Working with soft links --
 bool(true)
-int(%d)
+int(%i)
 bool(true)
 
 -- Working with hard links --
 bool(true)
-int(%d)
+int(%i)
 bool(false)
 Done
