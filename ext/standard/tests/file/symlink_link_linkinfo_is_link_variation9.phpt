@@ -100,22 +100,22 @@ rmdir($dirname);
 --EXPECTF--
 *** Checking lstat() on soft link ***
 bool(true)
-linkinfo() returns : %d
-lstat() returns lstat['dev'] as %d
+linkinfo() returns : %i
+lstat() returns lstat['dev'] as %i
 
 linkinfo() value matches lstat['dev']
 
 *** Checking lstat() on hard link ***
 bool(true)
-linkinfo() returns : %d
-lstat() returns lstat['dev'] as %d
+linkinfo() returns : %i
+lstat() returns lstat['dev'] as %i
 
 linkinfo() value matches lstat['dev']
 
 *** Checking lstat() on a soft link to directory ***
 bool(true)
-linkinfo() returns : %d
-lstat() returns lstat['dev'] as %d
+linkinfo() returns : %i
+lstat() returns lstat['dev'] as %i
 
 linkinfo() value matches lstat['dev']
 Done

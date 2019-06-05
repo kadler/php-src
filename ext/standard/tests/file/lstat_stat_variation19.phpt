@@ -64,7 +64,7 @@ rmdir("$file_path/lstat_stat_variation19");
 -- Testing stat() on filename stored inside an array --
 array(26) {
   [0]=>
-  int(%d)
+  int(%i)
   [1]=>
   int(%d)
   [2]=>
@@ -90,7 +90,7 @@ array(26) {
   [12]=>
   int(%d)
   ["dev"]=>
-  int(%d)
+  int(%i)
   ["ino"]=>
   int(%d)
   ["mode"]=>
@@ -118,7 +118,7 @@ array(26) {
 }
 array(26) {
   [0]=>
-  int(%d)
+  int(%i)
   [1]=>
   int(%d)
   [2]=>
@@ -144,7 +144,7 @@ array(26) {
   [12]=>
   int(%d)
   ["dev"]=>
-  int(%d)
+  int(%i)
   ["ino"]=>
   int(%d)
   ["mode"]=>
@@ -174,7 +174,7 @@ array(26) {
 -- Testing stat() on dir name stored inside an array --
 array(26) {
   [0]=>
-  int(%d)
+  int(%i)
   [1]=>
   int(%d)
   [2]=>
@@ -200,7 +200,7 @@ array(26) {
   [12]=>
   int(%d)
   ["dev"]=>
-  int(%d)
+  int(%i)
   ["ino"]=>
   int(%d)
   ["mode"]=>
@@ -228,7 +228,7 @@ array(26) {
 }
 array(26) {
   [0]=>
-  int(%d)
+  int(%i)
   [1]=>
   int(%d)
   [2]=>
@@ -254,7 +254,7 @@ array(26) {
   [12]=>
   int(%d)
   ["dev"]=>
-  int(%d)
+  int(%i)
   ["ino"]=>
   int(%d)
   ["mode"]=>

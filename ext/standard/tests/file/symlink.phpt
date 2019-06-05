@@ -47,7 +47,7 @@ echo "Done\n";
 --EXPECTF--
 bool(true)
 string(%d) "%ssymlink.dat"
-int(%d)
+int(%i)
 
 Warning: readlink(): No such file or directory in %s on line %d
 bool(false)
@@ -74,5 +74,5 @@ bool(false)
 
 Warning: readlink(): Invalid argument in %s on line %d
 bool(false)
-int(%d)
+int(%i)
 Done
