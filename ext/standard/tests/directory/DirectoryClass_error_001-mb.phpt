@@ -3,8 +3,7 @@ Directory class behaviour.
 --FILE--
 <?php
 
-$d = getcwd().PATH_SEPARATOR."私はガラスを食べられます";
-
+$d = getcwd().DIRECTORY_SEPARATOR."私はガラスを食べられます";
 mkdir($d);
 
 echo "\n--> Try all methods with bad handle:\n";
@@ -30,7 +29,7 @@ var_dump($d->close(1,2));
 ?>
 --CLEAN--
 <?php
-$d = getcwd().PATH_SEPARATOR."私はガラスを食べられます";
+$d = getcwd().DIRECTORY_SEPARATOR."私はガラスを食べられます";
 rmdir($d);
 
 ?>
