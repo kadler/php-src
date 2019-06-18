@@ -34,6 +34,6 @@ Basic test of POSIX getpgid(), kill(), get_last_error() and strerror() functions
 Kill pid=%d
 bool(false)
 int(%d)
-string(%d) %s%rNo such process|Operation not permitted%r%s
+string(%d) %s%rNo such process|Operation not permitted|Not owner%r%s
 ===DONE====
   
