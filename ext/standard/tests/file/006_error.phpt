@@ -37,7 +37,7 @@ echo "\n";
 clearstatcache();
 
 var_dump( chmod("/etc", 0777) );
-printf("%o", fileperms("/etc") );
+printf("%o", fileperms("/etc") & 070777 );
 echo "\n";
 clearstatcache();
 
