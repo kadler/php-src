@@ -2,9 +2,8 @@
 Test popen() and pclose function: error conditions
 --SKIPIF--
 <?php
-if(substr(PHP_OS, 0, 3) == 'WIN' || strtoupper( substr(PHP_OS, 0, 3) ) == 'SUN' ||
-   PHP_OS == 'AIX' || PHP_OS == 'OS400') {
-  die("skip Not Valid for Windows, Sun Solaris, AIX, or IBM i/PASE");
+if(PHP_OS != 'AIX' && PHP_OS != 'OS400') {
+  die("skip Only Valid for AIX and IBM i/PASE");
 }
 ?>
 --FILE--
@@ -41,9 +40,8 @@ NULL
 
 Warning: popen() expects exactly 2 parameters, 1 given in %s on line %d
 NULL
-
-Warning: popen(abc.txt,rw): %s on line %d
-bool(false)
+resource(%d) of type (stream)
+%r.*%rsh: abc.txt:%s
 
 Warning: pclose() expects exactly 1 parameter, 0 given in %s on line %d
 bool(false)
