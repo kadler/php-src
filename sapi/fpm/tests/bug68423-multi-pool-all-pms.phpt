@@ -1,7 +1,12 @@
 --TEST--
 FPM: bug68423 - Multiple pools with different PMs (dynamic + ondemand + static)
 --SKIPIF--
-<?php include "skipif.inc"; ?>
+<?php
+include "skipif.inc";
+if (PHP_OS == 'AIX' || PHP_OS == 'OS400') {
+    die("skip - ondemand requires epoll or kqueue");
+}
+?>
 --FILE--
 <?php
 
