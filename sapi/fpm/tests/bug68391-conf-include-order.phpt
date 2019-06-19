@@ -20,7 +20,10 @@ $cfgPoolTemplate = <<<EOT
 [%name%]
 listen = {{ADDR[%name%]}}
 user = foo
-pm = ondemand
+pm = dynamic
+pm.start_servers = 3
+pm.min_spare_servers = 2
+pm.max_spare_servers = 4
 pm.max_children = 5
 EOT;
 
