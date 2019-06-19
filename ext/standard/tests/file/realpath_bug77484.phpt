@@ -2,8 +2,8 @@
 Bug #77484 Zend engine crashes when calling realpath in invalid working dir
 --SKIPIF--
 <?php
-if (substr(PHP_OS, 0, 3) == 'WIN') {
-    die("skip can't remove CWD on Windows");
+if (substr(PHP_OS, 0, 3) == 'WIN' || PHP_OS == 'AIX' || PHP_OS == 'OS400') {
+    die("skip can't remove CWD on Windows, AIX, or IBM i");
 }
 if (PHP_ZTS) {
     /* TODO eliminate difference in TS build. */
