@@ -11,7 +11,15 @@ if (!extension_loaded('posix')) {
 ?>
 --FILE--
 <?php
-$grp = posix_getgrgid(0);
+if (php_uname("s") != "OS400") {
+    $gid = 0;
+} else {
+    // IBM i does ship with any built-in groups gid cannot be 0
+    // You must create a group profile like so:
+    // CRTUSRPRF USRPRF(PHPTESTGRP) GID(12648430)
+    $gid = 12648430;
+}
+$grp = posix_getgrgid($gid);
 if (!isset($grp['name'])) {
     die('Array index "name" does not exist.');
 }
@@ -38,8 +46,10 @@ if (!isset($grp['gid'])) {
     die('Array index "gid" does not exist.');
 }
 var_dump($grp['gid']);
+var_dump($grp['gid'] == $gid);
 ?>
 ===DONE===
---EXPECT--
-int(0)
+--EXPECTF--
+int(%d)
+bool(true)
 ===DONE===
