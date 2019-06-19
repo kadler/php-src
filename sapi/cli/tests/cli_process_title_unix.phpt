@@ -16,7 +16,7 @@ if (cli_set_process_title($original_title) === true)
   echo "Successfully set title\n";
 
 $ps_process_title_field = "command";
-if (strtoupper(substr(PHP_OS, 0, 3)) == "AIX")
+if (strtoupper(substr(PHP_OS, 0, 3)) == "AIX" || strtoupper(substr(PHP_OS, 0, 5)) == "OS400")
 {
   $ps_process_title_field = "args";
 }
