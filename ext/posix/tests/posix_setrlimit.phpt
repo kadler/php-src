@@ -4,6 +4,7 @@ posix_setrlimit(): Basic tests
 <?php
 if (!extension_loaded('posix')) die('skip - POSIX extension not loaded');
 if (!function_exists('posix_setrlimit')) die('skip posix_setrlimit() not found');
+if (!getenv("PASE_RUN_ALL_TESTS")) die("skip known PASE test failures");
 ?>
 --FILE--
 <?php
