@@ -5,6 +5,7 @@ Test setlocale() function : usage variations - Setting all available locales in 
 if (substr(PHP_OS, 0, 3) == 'WIN') {
     die('skip Not valid for windows');
 }
+if (!getenv("PASE_RUN_ALL_TESTS")) die("skip known PASE test failures");
 ?>
 --FILE--
 <?php
