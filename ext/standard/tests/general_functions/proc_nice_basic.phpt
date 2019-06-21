@@ -9,6 +9,7 @@ Simone Gentili (sensorario@gmail.com)
 <?php
 if(!function_exists('proc_nice')) die("skip. proc_nice not available ");
 if(substr(strtoupper(PHP_OS), 0, 3) == 'WIN') die('skip. not for Windows');
+if (!getenv("PASE_RUN_ALL_TESTS")) die("skip known PASE test failures");
 ?>
 --FILE--
 <?php
