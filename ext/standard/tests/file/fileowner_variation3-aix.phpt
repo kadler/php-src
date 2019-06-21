@@ -3,11 +3,9 @@ Test fileowner() function: usage variations - diff. path notations
 --CREDITS--
 Dave Kelsey <d_kelsey@uk.ibm.com>
 --SKIPIF--
-<?php
-if(PHP_OS == 'AIX' || PHP_OS == 'OS400') {
-    die('skip - trailing slash is ok for files on these platforms');
+if(PHP_OS != 'AIX' && PHP_OS != 'OS400') {
+    die('skip - only applicable to AIX and IBM i');
 }
-?>
 --FILE--
 <?php
 /* Prototype: int fileowner ( string $filename )
@@ -65,9 +63,7 @@ rmdir($dir_name);
 - Iteration 1 -
 int(%d)
 - Iteration 2 -
-
-Warning: fileowner(): stat failed for %s//fileowner_variation3/fileowner_variation3.tmp/ in %s on line %d
-bool(false)
+int(%d)
 - Iteration 3 -
 int(%d)
 - Iteration 4 -

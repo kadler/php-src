@@ -4,11 +4,8 @@ Test touch() function : variation: various valid and invalid paths
 Dave Kelsey <d_kelsey@uk.ibm.com>
 --SKIPIF--
 <?php
-if (substr(PHP_OS, 0, 3) == 'WIN') {
-    die('skip.. Not for Windows');
-}
-if(PHP_OS == 'AIX' || PHP_OS == 'OS400') {
-    die('skip - trailing slash is ok for files on these platforms');
+if(PHP_OS != 'AIX' && PHP_OS != 'OS400') {
+    die('skip - only applicable to AIX and IBM i');
 }
 ?>
 --FILE--
@@ -180,11 +177,9 @@ PASSED: /%s/touchVar5.tmp/../touchVar5.tmp/aSubDirOrFile - created
 
 Warning: touch(): Unable to create file /%s/BADDIR/aSubDirOrFile because %s in %s on line %d
 --- testing touchVar5.tmp/aSubDirOrFile/ ---
-
-Warning: touch(): Unable to create file touchVar5.tmp/aSubDirOrFile/ because %s in %s on line %d
+PASSED: touchVar5.tmp/aSubDirOrFile/ - created
 --- testing /%s/touchVar5.tmp/aSubDirOrFile/ ---
-
-Warning: touch(): Unable to create file /%s/touchVar5.tmp/aSubDirOrFile/ because %s in %s on line %d
+PASSED: /%s/touchVar5.tmp/aSubDirOrFile/ - created
 --- testing touchVar5.tmp//aSubDirOrFile ---
 PASSED: touchVar5.tmp//aSubDirOrFile - created
 --- testing /%s//touchVar5.tmp//aSubDirOrFile ---
@@ -203,6 +198,10 @@ PASSED: /%s/touchVar5.tmp/aSubDirOrFile - touched
 PASSED: /%s/./touchVar5.tmp/aSubDirOrFile - touched
 --- testing /%s/touchVar5.tmp/../touchVar5.tmp/aSubDirOrFile ---
 PASSED: /%s/touchVar5.tmp/../touchVar5.tmp/aSubDirOrFile - touched
+--- testing touchVar5.tmp/aSubDirOrFile/ ---
+PASSED: touchVar5.tmp/aSubDirOrFile/ - touched
+--- testing /%s/touchVar5.tmp/aSubDirOrFile/ ---
+PASSED: /%s/touchVar5.tmp/aSubDirOrFile/ - touched
 --- testing touchVar5.tmp//aSubDirOrFile ---
 PASSED: touchVar5.tmp//aSubDirOrFile - touched
 --- testing /%s//touchVar5.tmp//aSubDirOrFile ---

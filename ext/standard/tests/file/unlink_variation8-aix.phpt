@@ -4,11 +4,8 @@ Test unlink() function : variation: various valid and invalid paths
 Dave Kelsey <d_kelsey@uk.ibm.com>
 --SKIPIF--
 <?php
-if (substr(PHP_OS, 0, 3) == 'WIN') {
-    die('skip.. Not for Windows');
-}
-if(PHP_OS == 'AIX' || PHP_OS == 'OS400') {
-    die('skip - trailing slash is ok for files on these platforms');
+if(PHP_OS != 'AIX' && PHP_OS != 'OS400') {
+    die('skip - only applicable to AIX and IBM i');
 }
 ?>
 --FILE--
@@ -177,23 +174,17 @@ Warning: unlink(/%s/BADDIR/file.tmp): No such file or directory in %s on line %d
 
 Warning: unlink(/%s/BADDIR/file.tmp): No such file or directory in %s on line %d
 -- removing unlinkVar8.tmp/file.tmp/ --
-
-Warning: unlink(unlinkVar8.tmp/file.tmp/): Not a directory in %s on line %d
+file removed
 -- unlinking soft link unlinkVar8.tmp/file.tmp/ --
-
-Warning: unlink(unlinkVar8.tmp/file.tmp/): %s directory in %s on line %d
+file unlinked
 -- unlinking hard link unlinkVar8.tmp/file.tmp/ --
-
-Warning: unlink(unlinkVar8.tmp/file.tmp/): Not a directory in %s on line %d
+file unlinked
 -- removing /%s/unlinkVar8.tmp/file.tmp/ --
-
-Warning: unlink(/%s/unlinkVar8.tmp/file.tmp/): Not a directory in %s on line %d
+file removed
 -- unlinking soft link /%s/unlinkVar8.tmp/file.tmp/ --
-
-Warning: unlink(/%s/unlinkVar8.tmp/file.tmp/): %s directory in %s on line %d
+file unlinked
 -- unlinking hard link /%s/unlinkVar8.tmp/file.tmp/ --
-
-Warning: unlink(/%s/unlinkVar8.tmp/file.tmp/): Not a directory in %s on line %d
+file unlinked
 -- removing unlinkVar8.tmp//file.tmp --
 file removed
 -- unlinking soft link unlinkVar8.tmp//file.tmp --

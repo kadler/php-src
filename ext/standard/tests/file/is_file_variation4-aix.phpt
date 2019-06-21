@@ -2,7 +2,7 @@
 Test is_file() function: usage variations - diff. path notations (Bug #42027)
 --SKIPIF--
 <?php
-if(PHP_OS == 'AIX' || PHP_OS == 'OS400') die('skip - trailing slash is ok for files on these platforms');
+if(PHP_OS != 'AIX' && PHP_OS != 'OS400') die('skip - only applicable to AIX and IBM i');
 ?>
 --FILE--
 <?php
@@ -61,7 +61,7 @@ rmdir($dir_name);
 - Iteration 1 -
 bool(true)
 - Iteration 2 -
-bool(false)
+bool(true)
 - Iteration 3 -
 bool(true)
 - Iteration 4 -
