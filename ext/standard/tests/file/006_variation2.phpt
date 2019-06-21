@@ -15,6 +15,7 @@ if(fileowner($filename) == 0) {
 }
 
 unlink($filename);
+if (!getenv("PASE_RUN_ALL_TESTS")) die("skip known PASE test failures");
 
 ?>
 --FILE--
