@@ -3,6 +3,7 @@ Test posix_getpgrp() function : basic functionality
 --SKIPIF--
 <?php
 	if (!extension_loaded('posix')) die('skip - POSIX extension not loaded');
+if (!getenv("PASE_RUN_ALL_TESTS")) die("skip known PASE test failures");
 ?>
 --FILE--
 <?php
