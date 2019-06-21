@@ -2,11 +2,8 @@
 Test readlink() and realpath functions: basic functionality - diff. path notation for links(Bug #42038)
 --SKIPIF--
 <?php
-if (substr(PHP_OS, 0, 3) == 'WIN') {
-    die('skip no symlinks on Windows');
-}
-if(PHP_OS == 'AIX' || PHP_OS == 'OS400') {
-    die('skip - trailing slash is ok for files on these platforms');
+if(PHP_OS != 'AIX' && PHP_OS != 'OS400') {
+    die('skip - only applicable to AIX and IBM i');
 }
 ?>
 --FILE--
@@ -107,8 +104,6 @@ bool(false)
 %s
 
 -- Iteration 7 --
-
-Warning: readlink(): %s in %s on line %d
+string(%d) "%s/readlink_realpath_basic1/home/test/readlink_realpath_basic1.tmp"
 bool(false)
-%s
 Done

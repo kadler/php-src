@@ -4,8 +4,8 @@ Test fileinode() function: usage variations - diff. path notations
 Dave Kelsey <d_kelsey@uk.ibm.com>
 --SKIPIF--
 <?php
-if(PHP_OS == 'AIX' || PHP_OS == 'OS400') {
-    die('skip - trailing slash is ok for files on these platforms');
+if(PHP_OS != 'AIX' && PHP_OS != 'OS400') {
+    die('skip - only applicable to AIX and IBM i');
 }
 ?>
 --FILE--
@@ -65,9 +65,7 @@ rmdir($dir_name);
 - Iteration 1 -
 int(%i)
 - Iteration 2 -
-
-Warning: fileinode(): stat failed for %s//fileinode_variation3/fileinode_variation3.tmp/ in %s on line %d
-bool(false)
+int(%i)
 - Iteration 3 -
 int(%i)
 - Iteration 4 -

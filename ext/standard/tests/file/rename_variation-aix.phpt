@@ -2,11 +2,8 @@
 Test rename() function: usage variations-1 (Bug#42638)
 --SKIPIF--
 <?php
-if (substr(PHP_OS, 0, 3) == 'WIN') {
-    die('skip.. only for Linux');
-}
-if(PHP_OS == 'AIX' || PHP_OS == 'OS400') {
-    die('skip - trailing slash is ok for files on these platforms');
+if(PHP_OS != 'AIX' && PHP_OS != 'OS400') {
+    die('skip - only applicable to AIX and IBM i');
 }
 ?>
 --FILE--
@@ -57,13 +54,9 @@ bool(true)
 bool(false)
 bool(true)
 -- Iteration 2 --
-
-Warning: rename(%s,%s): Not a directory in %s on line %d
+bool(true)
 bool(false)
-bool(false)
-bool(false)
-
-Warning: unlink(%s): No such file or directory in %s on line %d
+bool(true)
 -- Iteration 3 --
 bool(true)
 bool(false)
