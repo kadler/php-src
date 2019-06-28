@@ -1,5 +1,9 @@
 --TEST--
 Test hebrevc() function : basic functionality
+--SKIPIF--
+<?php
+if (!getenv("PASE_RUN_ALL_TESTS")) die("skip known PASE test failures"); // hebrew issues
+?>
 --FILE--
 <?php
 

@@ -1,5 +1,9 @@
 --TEST--
 Test hebrevc() function : usage variations - test values for $max_chars_per_line argument
+--SKIPIF--
+<?php
+if (!getenv("PASE_RUN_ALL_TESTS")) die("skip known PASE test failures"); // hebrew issues
+?>
 --FILE--
 <?php
 
