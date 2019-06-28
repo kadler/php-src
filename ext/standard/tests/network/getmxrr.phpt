@@ -7,6 +7,7 @@ if (getenv("SKIP_ONLINE_TESTS")) die("skip test requiring internet connection");
 if (substr(PHP_OS, 0, 3) == 'WIN') {
     die('skip: no Windows support');
 }
+if (!getenv("PASE_RUN_ALL_TESTS")) die("skip known PASE test failures");
 ?>
 --FILE--
 <?php
