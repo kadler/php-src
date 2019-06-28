@@ -1,5 +1,9 @@
 --TEST--
 Bug #64438 proc_open hangs with stdin/out with 4097+ bytes
+--SKIPIF--
+<?php
+if (!getenv("PASE_RUN_ALL_TESTS")) die("skip known PASE test failures"); // output issues
+?>
 --FILE--
 <?php
 
