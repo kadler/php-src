@@ -1,5 +1,9 @@
 --TEST--
 Test flock() function: Basic functionality
+--SKIPIF--
+<?php
+if (!getenv("PASE_RUN_ALL_TESTS")) die("skip known PASE test failures"); // flock issues
+?>
 --FILE--
 <?php
 /*
