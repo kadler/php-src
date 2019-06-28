@@ -2,6 +2,9 @@
 FPM: Status basic test
 --SKIPIF--
 <?php include "skipif.inc"; ?>
+<?php
+if (!getenv("PASE_RUN_ALL_TESTS")) die("skip known PASE test failures"); // hebrew issues
+?>
 --FILE--
 <?php
 
