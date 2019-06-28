@@ -8,6 +8,7 @@ if (PHP_INT_SIZE != 8) die("skip this test is for 64-bit only");
 if (substr(PHP_OS, 0, 3) == 'WIN') {
     die('skip.. Not for Windows');
 }
+if (!getenv("PASE_RUN_ALL_TESTS")) die("skip known PASE test failures"); // 64-bit time issue
 ?>
 --FILE--
 <?php
