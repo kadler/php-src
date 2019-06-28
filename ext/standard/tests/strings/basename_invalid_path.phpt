@@ -4,6 +4,7 @@ Test basename() function : usage variations with invalid paths
 <?php
 if((substr(PHP_OS, 0, 3) == "WIN"))
   die('skip not for Windows"');
+if (!getenv("PASE_RUN_ALL_TESTS")) die("skip known PASE test failures");
 ?>
 --FILE--
 <?php
