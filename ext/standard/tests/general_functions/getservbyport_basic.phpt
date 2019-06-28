@@ -5,6 +5,12 @@ Italian PHP TestFest 2009 Cesena 19-20-21 june
 Fabio Fabbrucci (fabbrucci@grupporetina.com)
 Michele Orselli (mo@ideato.it)
 Simone Gentili (sensorario@gmail.com)
+--SKIPIF--
+<?php
+        if (!file_exists("/etc/services") && !file_exists("C:/WINDOWS/system32/drivers/etc/services")) {
+            die('skip - test requires /etc/services file');
+        }
+?>
 --FILE--
 <?php
 	if (file_exists("/etc/services")) {
