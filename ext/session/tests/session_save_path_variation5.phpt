@@ -4,6 +4,8 @@ Test session_save_path() function : variation
 <?php include('skipif.inc');
 if(substr(PHP_OS, 0, 3) == "WIN")
 	die("skip Not for Windows");
+if (!getenv("PASE_RUN_ALL_TESTS")) die("skip known PASE test failures"); // can't remove current directory
+
 ?>
 --INI--
 session.save_handler=files
