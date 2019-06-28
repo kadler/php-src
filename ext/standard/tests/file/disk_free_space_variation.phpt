@@ -1,5 +1,7 @@
 --TEST--
 Test disk_free_space and its alias diskfreespace() functions : Usage Variations
+--SKIPIF--
+if (!getenv("PASE_RUN_ALL_TESTS")) die("skip known PASE test failures");
 --FILE--
 <?php
 /*

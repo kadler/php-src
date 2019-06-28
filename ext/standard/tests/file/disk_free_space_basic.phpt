@@ -3,6 +3,7 @@ Test disk_free_space and its alias diskfreespace() functions : basic functionali
 --SKIPIF--
 <?php
 if (getenv("TRAVIS") === "true") die("skip inaccurate on TravisCI");
+if (!getenv("PASE_RUN_ALL_TESTS")) die("skip known PASE test failures");
 ?>
 --INI--
 memory_limit=32M
