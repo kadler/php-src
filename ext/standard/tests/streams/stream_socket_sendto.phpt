@@ -27,7 +27,7 @@ if (is_resource($sock)) {
 }
 ?>
 --EXPECTF--
-Notice: fwrite(): send of %i bytes failed with errno=%i Broken pipe in %s on line %d
+Notice: fwrite(): send of %i bytes failed with errno=%i %rBroken pipe|Socket is not connected%r in %s on line %d
 
 Warning: stream_socket_sendto() expects at least %i parameters, %i given in %s on line %d
 bool(%s)
@@ -35,24 +35,24 @@ bool(%s)
 Warning: stream_socket_sendto() expects at least %i parameters, %i given in %s on line %d
 bool(%s)
 
-Warning: stream_socket_sendto(): Broken pipe
+Warning: stream_socket_sendto(): %rBroken pipe|Socket is not connected%r
  in %s on line %d
 int(%i)
 
-Warning: stream_socket_sendto(): Broken pipe
+Warning: stream_socket_sendto(): %rBroken pipe|Socket is not connected%r
  in %s on line %d
 int(%i)
 
-Warning: stream_socket_sendto(): php_network_getaddresses: getaddrinfo failed: Name or service not known in %s on line %d
+Warning: stream_socket_sendto(): php_network_getaddresses: getaddrinfo failed: %rName or service not known|Hostname and service name not provided or found%r in %s on line %d
 
-Warning: stream_socket_sendto(): Failed to resolve %s: php_network_getaddresses: getaddrinfo failed: Name or service not known in %s on line %d
+Warning: stream_socket_sendto(): Failed to resolve %s: php_network_getaddresses: getaddrinfo failed: %rName or service not known|Hostname and service name not provided or found%r in %s on line %d
 
 Warning: stream_socket_sendto(): Failed to parse %s into a valid network address in %s on line %d
 bool(%s)
 
-Warning: stream_socket_sendto(): php_network_getaddresses: getaddrinfo failed: Name or service not known in %s on line %d
+Warning: stream_socket_sendto(): php_network_getaddresses: getaddrinfo failed: %rName or service not known|Hostname and service name not provided or found%r in %s on line %d
 
-Warning: stream_socket_sendto(): Failed to resolve %s: php_network_getaddresses: getaddrinfo failed: Name or service not known in %s on line %d
+Warning: stream_socket_sendto(): Failed to resolve %s: php_network_getaddresses: getaddrinfo failed: %rName or service not known|Hostname and service name not provided or found%r in %s on line %d
 
 Warning: stream_socket_sendto(): Failed to parse %s into a valid network address in %s on line %d
 bool(%s)
