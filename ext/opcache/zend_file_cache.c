@@ -86,6 +86,8 @@ static int zend_file_cache_flock(int fd, int op)
 }
 #elif defined(HAVE_FLOCK)
 # define zend_file_cache_flock flock
+#elif defined(HAVE_STRUCT_FLOCK)
+# define zend_file_cache_flock php_flock
 #else
 # define LOCK_SH 0
 # define LOCK_EX 1
