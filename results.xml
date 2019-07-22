@@ -10749,12 +10749,14 @@ fs7 2010-03-15 02:30:00 EDT America/New_York - P1D = 2010-03-14 03:30:00 EDT Ame
     <testcase name="regsiter_node_class" classname="ext/dom.regsiter_node_class">
     </testcase>
   </testsuite>
-  <testsuite name="ext/exif" tests="74" disabled="0" errors="0" failures="0" skipped="0">
+  <testsuite name="ext/exif" tests="82" disabled="0" errors="0" failures="0" skipped="0">
     <testcase name="bug34704-mb" classname="ext/exif.bug34704-mb">
     </testcase>
     <testcase name="bug34704" classname="ext/exif.bug34704">
     </testcase>
     <testcase name="bug48378" classname="ext/exif.bug48378">
+    </testcase>
+    <testcase name="bug50660" classname="ext/exif.bug50660">
     </testcase>
     <testcase name="bug50845" classname="ext/exif.bug50845">
     </testcase>
@@ -10788,7 +10790,17 @@ fs7 2010-03-15 02:30:00 EDT America/New_York - P1D = 2010-03-14 03:30:00 EDT Ame
     </testcase>
     <testcase name="bug72627" classname="ext/exif.bug72627">
     </testcase>
+    <testcase name="bug72682" classname="ext/exif.bug72682">
+    </testcase>
+    <testcase name="bug72735" classname="ext/exif.bug72735">
+    </testcase>
+    <testcase name="bug72819" classname="ext/exif.bug72819">
+    </testcase>
+    <testcase name="bug73115" classname="ext/exif.bug73115">
+    </testcase>
     <testcase name="bug73737" classname="ext/exif.bug73737">
+    </testcase>
+    <testcase name="bug74428" classname="ext/exif.bug74428">
     </testcase>
     <testcase name="bug76130" classname="ext/exif.bug76130">
     </testcase>
@@ -10800,9 +10812,13 @@ fs7 2010-03-15 02:30:00 EDT America/New_York - P1D = 2010-03-14 03:30:00 EDT Ame
     </testcase>
     <testcase name="bug76557" classname="ext/exif.bug76557">
     </testcase>
+    <testcase name="bug77184" classname="ext/exif.bug77184">
+    </testcase>
     <testcase name="bug77540" classname="ext/exif.bug77540">
     </testcase>
     <testcase name="bug77563" classname="ext/exif.bug77563">
+    </testcase>
+    <testcase name="bug77564" classname="ext/exif.bug77564">
     </testcase>
     <testcase name="bug77753" classname="ext/exif.bug77753">
     </testcase>
@@ -10897,36 +10913,6 @@ fs7 2010-03-15 02:30:00 EDT America/New_York - P1D = 2010-03-14 03:30:00 EDT Ame
     <testcase name="redhat-bug1362571" classname="ext/exif.redhat-bug1362571">
     </testcase>
     <testcase name="sony" classname="ext/exif.sony">
-    </testcase>
-  </testsuite>
-  <testsuite name="ext/exif/bug50660" tests="1" disabled="0" errors="0" failures="0" skipped="0">
-    <testcase name="bug50660" classname="ext/exif/bug50660.bug50660">
-    </testcase>
-  </testsuite>
-  <testsuite name="ext/exif/bug72735" tests="2" disabled="0" errors="0" failures="0" skipped="0">
-    <testcase name="bug72682" classname="ext/exif/bug72735.bug72682">
-    </testcase>
-    <testcase name="bug72735" classname="ext/exif/bug72735.bug72735">
-    </testcase>
-  </testsuite>
-  <testsuite name="ext/exif/bug72819" tests="1" disabled="0" errors="0" failures="0" skipped="0">
-    <testcase name="bug72819" classname="ext/exif/bug72819.bug72819">
-    </testcase>
-  </testsuite>
-  <testsuite name="ext/exif/bug73115" tests="1" disabled="0" errors="0" failures="0" skipped="0">
-    <testcase name="bug73115" classname="ext/exif/bug73115.bug73115">
-    </testcase>
-  </testsuite>
-  <testsuite name="ext/exif/bug74428" tests="1" disabled="0" errors="0" failures="0" skipped="0">
-    <testcase name="bug74428" classname="ext/exif/bug74428.bug74428">
-    </testcase>
-  </testsuite>
-  <testsuite name="ext/exif/bug77184" tests="1" disabled="0" errors="0" failures="0" skipped="0">
-    <testcase name="bug77184" classname="ext/exif/bug77184.bug77184">
-    </testcase>
-  </testsuite>
-  <testsuite name="ext/exif/bug77564" tests="1" disabled="0" errors="0" failures="0" skipped="0">
-    <testcase name="bug77564" classname="ext/exif/bug77564.bug77564">
     </testcase>
   </testsuite>
   <testsuite name="ext/fileinfo" tests="47" disabled="0" errors="0" failures="0" skipped="3">
@@ -13390,7 +13376,7 @@ string(4) "done"</system-out>
     <testcase name="zend_multibyte-16" classname="ext/mbstring.zend_multibyte-16">
     </testcase>
   </testsuite>
-  <testsuite name="ext/mysqli" tests="404" disabled="0" errors="0" failures="9" skipped="36">
+  <testsuite name="ext/mysqli" tests="408" disabled="0" errors="0" failures="9" skipped="40">
     <testcase name="001" classname="ext/mysqli.001">
     </testcase>
     <testcase name="002" classname="ext/mysqli.002">
@@ -13613,6 +13599,8 @@ string(4) "done"</system-out>
     </testcase>
     <testcase name="bug51605" classname="ext/mysqli.bug51605">
     </testcase>
+    <testcase name="bug51647" classname="ext/mysqli.bug51647">
+    </testcase>
     <testcase name="bug52082" classname="ext/mysqli.bug52082">
     </testcase>
     <testcase name="bug52891" classname="ext/mysqli.bug52891">
@@ -13622,6 +13610,8 @@ string(4) "done"</system-out>
     <testcase name="bug54221" classname="ext/mysqli.bug54221">
     </testcase>
     <testcase name="bug54674" classname="ext/mysqli.bug54674">
+    </testcase>
+    <testcase name="bug55283" classname="ext/mysqli.bug55283">
     </testcase>
     <testcase name="bug55582" classname="ext/mysqli.bug55582">
     </testcase>
@@ -13648,6 +13638,8 @@ string(4) "done"</system-out>
     <testcase name="bug68077" classname="ext/mysqli.bug68077">
     </testcase>
     <testcase name="bug69899" classname="ext/mysqli.bug69899">
+    </testcase>
+    <testcase name="bug70384" classname="ext/mysqli.bug70384">
     </testcase>
     <testcase name="bug70949" classname="ext/mysqli.bug70949">
     </testcase>
@@ -13979,6 +13971,8 @@ string(4) "done"</system-out>
     </testcase>
     <testcase name="mysqli_pconn_limits" classname="ext/mysqli.mysqli_pconn_limits">
     </testcase>
+    <testcase name="mysqli_pconn_max_links" classname="ext/mysqli.mysqli_pconn_max_links">
+    </testcase>
     <testcase name="mysqli_pconn_reuse" classname="ext/mysqli.mysqli_pconn_reuse">
     </testcase>
     <testcase name="mysqli_pconn_twice" classname="ext/mysqli.mysqli_pconn_twice">
@@ -14279,16 +14273,6 @@ done!</system-out>
     <testcase name="mysqli_warning_unclonable" classname="ext/mysqli.mysqli_warning_unclonable">
     </testcase>
   </testsuite>
-  <testsuite name="." tests="4" disabled="0" errors="0" failures="0" skipped="4">
-    <testcase name="0" classname="..0">
-    </testcase>
-    <testcase name="0" classname="..0">
-    </testcase>
-    <testcase name="5.5.62" classname="..5?5?62">
-    </testcase>
-    <testcase name="1142" classname="..1142">
-    </testcase>
-  </testsuite>
   <testsuite name="ext/odbc" tests="15" disabled="0" errors="0" failures="0" skipped="15">
     <testcase name="bug47803" classname="ext/odbc.bug47803">
     </testcase>
@@ -14321,7 +14305,7 @@ done!</system-out>
     <testcase name="odbc_tables_001" classname="ext/odbc.odbc_tables_001">
     </testcase>
   </testsuite>
-  <testsuite name="ext/opcache" tests="135" disabled="0" errors="0" failures="0" skipped="3">
+  <testsuite name="ext/opcache" tests="169" disabled="0" errors="0" failures="0" skipped="3">
     <testcase name="001_cli" classname="ext/opcache.001_cli">
     </testcase>
     <testcase name="blacklist-win32" classname="ext/opcache.blacklist-win32">
@@ -14544,6 +14528,74 @@ done!</system-out>
     </testcase>
     <testcase name="neg_range_inference" classname="ext/opcache.neg_range_inference">
     </testcase>
+    <testcase name="dce_001" classname="ext/opcache.dce_001">
+    </testcase>
+    <testcase name="dce_002" classname="ext/opcache.dce_002">
+    </testcase>
+    <testcase name="dce_003" classname="ext/opcache.dce_003">
+    </testcase>
+    <testcase name="dce_004" classname="ext/opcache.dce_004">
+    </testcase>
+    <testcase name="dce_005" classname="ext/opcache.dce_005">
+    </testcase>
+    <testcase name="dce_006" classname="ext/opcache.dce_006">
+    </testcase>
+    <testcase name="dce_007" classname="ext/opcache.dce_007">
+    </testcase>
+    <testcase name="dce_008" classname="ext/opcache.dce_008">
+    </testcase>
+    <testcase name="jmp_001" classname="ext/opcache.jmp_001">
+    </testcase>
+    <testcase name="sccp_001" classname="ext/opcache.sccp_001">
+    </testcase>
+    <testcase name="sccp_002" classname="ext/opcache.sccp_002">
+    </testcase>
+    <testcase name="sccp_003" classname="ext/opcache.sccp_003">
+    </testcase>
+    <testcase name="sccp_004" classname="ext/opcache.sccp_004">
+    </testcase>
+    <testcase name="sccp_005" classname="ext/opcache.sccp_005">
+    </testcase>
+    <testcase name="sccp_006" classname="ext/opcache.sccp_006">
+    </testcase>
+    <testcase name="sccp_007" classname="ext/opcache.sccp_007">
+    </testcase>
+    <testcase name="sccp_008" classname="ext/opcache.sccp_008">
+    </testcase>
+    <testcase name="sccp_009" classname="ext/opcache.sccp_009">
+    </testcase>
+    <testcase name="sccp_010" classname="ext/opcache.sccp_010">
+    </testcase>
+    <testcase name="sccp_011" classname="ext/opcache.sccp_011">
+    </testcase>
+    <testcase name="sccp_012" classname="ext/opcache.sccp_012">
+    </testcase>
+    <testcase name="sccp_013" classname="ext/opcache.sccp_013">
+    </testcase>
+    <testcase name="sccp_014" classname="ext/opcache.sccp_014">
+    </testcase>
+    <testcase name="sccp_015" classname="ext/opcache.sccp_015">
+    </testcase>
+    <testcase name="sccp_016" classname="ext/opcache.sccp_016">
+    </testcase>
+    <testcase name="sccp_017" classname="ext/opcache.sccp_017">
+    </testcase>
+    <testcase name="sccp_018" classname="ext/opcache.sccp_018">
+    </testcase>
+    <testcase name="sccp_019" classname="ext/opcache.sccp_019">
+    </testcase>
+    <testcase name="sccp_020" classname="ext/opcache.sccp_020">
+    </testcase>
+    <testcase name="sccp_021" classname="ext/opcache.sccp_021">
+    </testcase>
+    <testcase name="sccp_022" classname="ext/opcache.sccp_022">
+    </testcase>
+    <testcase name="sccp_023" classname="ext/opcache.sccp_023">
+    </testcase>
+    <testcase name="sccp_024" classname="ext/opcache.sccp_024">
+    </testcase>
+    <testcase name="sccp_025" classname="ext/opcache.sccp_025">
+    </testcase>
     <testcase name="optimize_func_calls" classname="ext/opcache.optimize_func_calls">
     </testcase>
     <testcase name="optimize_func_calls_001" classname="ext/opcache.optimize_func_calls_001">
@@ -14591,76 +14643,6 @@ done!</system-out>
     <testcase name="wrong_inlining_005" classname="ext/opcache.wrong_inlining_005">
     </testcase>
     <testcase name="zzz_basic_logging" classname="ext/opcache.zzz_basic_logging">
-    </testcase>
-  </testsuite>
-  <testsuite name="ext/opcache/opt" tests="34" disabled="0" errors="0" failures="0" skipped="0">
-    <testcase name="dce_001" classname="ext/opcache/opt.dce_001">
-    </testcase>
-    <testcase name="dce_002" classname="ext/opcache/opt.dce_002">
-    </testcase>
-    <testcase name="dce_003" classname="ext/opcache/opt.dce_003">
-    </testcase>
-    <testcase name="dce_004" classname="ext/opcache/opt.dce_004">
-    </testcase>
-    <testcase name="dce_005" classname="ext/opcache/opt.dce_005">
-    </testcase>
-    <testcase name="dce_006" classname="ext/opcache/opt.dce_006">
-    </testcase>
-    <testcase name="dce_007" classname="ext/opcache/opt.dce_007">
-    </testcase>
-    <testcase name="dce_008" classname="ext/opcache/opt.dce_008">
-    </testcase>
-    <testcase name="jmp_001" classname="ext/opcache/opt.jmp_001">
-    </testcase>
-    <testcase name="sccp_001" classname="ext/opcache/opt.sccp_001">
-    </testcase>
-    <testcase name="sccp_002" classname="ext/opcache/opt.sccp_002">
-    </testcase>
-    <testcase name="sccp_003" classname="ext/opcache/opt.sccp_003">
-    </testcase>
-    <testcase name="sccp_004" classname="ext/opcache/opt.sccp_004">
-    </testcase>
-    <testcase name="sccp_005" classname="ext/opcache/opt.sccp_005">
-    </testcase>
-    <testcase name="sccp_006" classname="ext/opcache/opt.sccp_006">
-    </testcase>
-    <testcase name="sccp_007" classname="ext/opcache/opt.sccp_007">
-    </testcase>
-    <testcase name="sccp_008" classname="ext/opcache/opt.sccp_008">
-    </testcase>
-    <testcase name="sccp_009" classname="ext/opcache/opt.sccp_009">
-    </testcase>
-    <testcase name="sccp_010" classname="ext/opcache/opt.sccp_010">
-    </testcase>
-    <testcase name="sccp_011" classname="ext/opcache/opt.sccp_011">
-    </testcase>
-    <testcase name="sccp_012" classname="ext/opcache/opt.sccp_012">
-    </testcase>
-    <testcase name="sccp_013" classname="ext/opcache/opt.sccp_013">
-    </testcase>
-    <testcase name="sccp_014" classname="ext/opcache/opt.sccp_014">
-    </testcase>
-    <testcase name="sccp_015" classname="ext/opcache/opt.sccp_015">
-    </testcase>
-    <testcase name="sccp_016" classname="ext/opcache/opt.sccp_016">
-    </testcase>
-    <testcase name="sccp_017" classname="ext/opcache/opt.sccp_017">
-    </testcase>
-    <testcase name="sccp_018" classname="ext/opcache/opt.sccp_018">
-    </testcase>
-    <testcase name="sccp_019" classname="ext/opcache/opt.sccp_019">
-    </testcase>
-    <testcase name="sccp_020" classname="ext/opcache/opt.sccp_020">
-    </testcase>
-    <testcase name="sccp_021" classname="ext/opcache/opt.sccp_021">
-    </testcase>
-    <testcase name="sccp_022" classname="ext/opcache/opt.sccp_022">
-    </testcase>
-    <testcase name="sccp_023" classname="ext/opcache/opt.sccp_023">
-    </testcase>
-    <testcase name="sccp_024" classname="ext/opcache/opt.sccp_024">
-    </testcase>
-    <testcase name="sccp_025" classname="ext/opcache/opt.sccp_025">
     </testcase>
   </testsuite>
   <testsuite name="ext/openssl" tests="144" disabled="0" errors="0" failures="0" skipped="3">
