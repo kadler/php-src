@@ -18023,6 +18023,26 @@
 018+ bool(false)
 019+ int(0)
 " />
+      <system-out>Setting IP_MULTICAST_TTL
+bool(true)
+int(9)
+
+Setting IP_MULTICAST_LOOP
+bool(true)
+int(0)
+bool(true)
+int(1)
+
+Setting IP_MULTICAST_IF
+interface 0:
+bool(true)
+int(0)
+interface 1:
+
+Warning: socket_set_option(): Failed obtaining address for interface 1: error 22 in /QOpenSys/home/kadler/php-src/ext/sockets/tests/socket_getopt.php on line 31
+bool(false)
+int(0)
+</system-out>
     </testcase>
     <testcase name="socket_getpeername">
     </testcase>
