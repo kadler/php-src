@@ -18016,13 +18016,13 @@
       <skipped message="" />
     </testcase>
     <testcase name="socket_getopt">
-      <failure message="016+ \n
+      <failure>016+ \n
 017+ Warning: socket_set_option(): Failed obtaining address for interface 1: error 22 in /QOpenSys/home/kadler/php-src/ext/sockets/tests/socket_getopt.php on line 31\n
 016- bool(true)\n
 017- int(1)\n
 018+ bool(false)\n
 019+ int(0)\n
-" />
+</failure>
       <system-out>Setting IP_MULTICAST_TTL
 bool(true)
 int(9)
