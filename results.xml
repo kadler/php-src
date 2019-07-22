@@ -81,7 +81,7 @@
     <testcase name="021">
     </testcase>
     <testcase name="022">
-      <failure message="" type="" />
+      <failure message="" />
     </testcase>
     <testcase name="023">
     </testcase>
@@ -120,7 +120,7 @@
     <testcase name="bug67988">
     </testcase>
     <testcase name="bug71273">
-      <failure message="" type="" />
+      <failure message="" />
     </testcase>
     <testcase name="bug73969">
     </testcase>
@@ -1680,7 +1680,7 @@
     <testcase name="open_basedir_link">
     </testcase>
     <testcase name="open_basedir_linkinfo">
-      <failure message="" type="" />
+      <failure message="" />
     </testcase>
     <testcase name="open_basedir_lstat">
     </testcase>
@@ -1845,10 +1845,10 @@
     <testcase name="access_modifiers_007">
     </testcase>
     <testcase name="access_modifiers_008">
-      <failure message="" type="" />
+      <failure message="" />
     </testcase>
     <testcase name="access_modifiers_009">
-      <failure message="" type="" />
+      <failure message="" />
     </testcase>
     <testcase name="access_modifiers_010">
     </testcase>
@@ -2587,13 +2587,13 @@
     <testcase name="bug48693">
     </testcase>
     <testcase name="bug48770">
-      <failure message="" type="" />
+      <failure message="" />
     </testcase>
     <testcase name="bug48770_2">
-      <failure message="" type="" />
+      <failure message="" />
     </testcase>
     <testcase name="bug48770_3">
-      <failure message="" type="" />
+      <failure message="" />
     </testcase>
     <testcase name="bug48899">
     </testcase>
@@ -4856,7 +4856,7 @@
     <testcase name="method_exists_002">
     </testcase>
     <testcase name="method_static_var">
-      <failure message="" type="" />
+      <failure message="" />
     </testcase>
     <testcase name="methods-on-non-objects-call-user-func">
     </testcase>
@@ -7016,7 +7016,7 @@
     <testcase name="jdtogregorian">
     </testcase>
     <testcase name="jdtogregorian_overflow">
-      <skipped message="" />
+      <skipped message="this test is for 32bit platforms only" />
     </testcase>
     <testcase name="jdtojewish">
     </testcase>
@@ -7043,7 +7043,7 @@
     <testcase name="unixtojd">
     </testcase>
     <testcase name="unixtojd_error1">
-      <failure message="" type="" />
+      <failure message="" />
     </testcase>
   </testsuite>
   <testsuite name="ext/ctype" tests="70" disabled="0" errors="0" failures="0" skipped="0">
@@ -7291,13 +7291,13 @@
     <testcase name="DateTime_add-fall-type2-type2">
     </testcase>
     <testcase name="DateTime_add-fall-type2-type3">
-      <failure message="" type="" />
+      <failure message="" />
     </testcase>
     <testcase name="DateTime_add-fall-type3-type2">
-      <failure message="" type="" />
+      <failure message="" />
     </testcase>
     <testcase name="DateTime_add-fall-type3-type3">
-      <failure message="" type="" />
+      <failure message="" />
     </testcase>
     <testcase name="DateTime_add-february">
     </testcase>
@@ -7306,13 +7306,13 @@
     <testcase name="DateTime_add-spring-type2-type2">
     </testcase>
     <testcase name="DateTime_add-spring-type2-type3">
-      <failure message="" type="" />
+      <failure message="" />
     </testcase>
     <testcase name="DateTime_add-spring-type3-type2">
-      <failure message="" type="" />
+      <failure message="" />
     </testcase>
     <testcase name="DateTime_add-spring-type3-type3">
-      <failure message="" type="" />
+      <failure message="" />
     </testcase>
     <testcase name="DateTime_clone_basic1">
     </testcase>
@@ -7369,13 +7369,13 @@
     <testcase name="DateTime_diff-fall-type2-type2">
     </testcase>
     <testcase name="DateTime_diff-fall-type2-type3">
-      <failure message="" type="" />
+      <failure message="" />
     </testcase>
     <testcase name="DateTime_diff-fall-type3-type2">
-      <failure message="" type="" />
+      <failure message="" />
     </testcase>
     <testcase name="DateTime_diff-fall-type3-type3">
-      <failure message="" type="" />
+      <failure message="" />
     </testcase>
     <testcase name="DateTime_diff-february">
     </testcase>
@@ -7384,13 +7384,13 @@
     <testcase name="DateTime_diff-spring-type2-type2">
     </testcase>
     <testcase name="DateTime_diff-spring-type2-type3">
-      <failure message="" type="" />
+      <failure message="" />
     </testcase>
     <testcase name="DateTime_diff-spring-type3-type2">
-      <failure message="" type="" />
+      <failure message="" />
     </testcase>
     <testcase name="DateTime_diff-spring-type3-type3">
-      <failure message="" type="" />
+      <failure message="" />
     </testcase>
     <testcase name="DateTime_extends_basic1">
     </testcase>
@@ -7463,13 +7463,13 @@
     <testcase name="DateTime_sub-fall-type2-type2">
     </testcase>
     <testcase name="DateTime_sub-fall-type2-type3">
-      <failure message="" type="" />
+      <failure message="" />
     </testcase>
     <testcase name="DateTime_sub-fall-type3-type2">
-      <failure message="" type="" />
+      <failure message="" />
     </testcase>
     <testcase name="DateTime_sub-fall-type3-type3">
-      <failure message="" type="" />
+      <failure message="" />
     </testcase>
     <testcase name="DateTime_sub-february">
     </testcase>
@@ -7478,13 +7478,13 @@
     <testcase name="DateTime_sub-spring-type2-type2">
     </testcase>
     <testcase name="DateTime_sub-spring-type2-type3">
-      <failure message="" type="" />
+      <failure message="" />
     </testcase>
     <testcase name="DateTime_sub-spring-type3-type2">
-      <failure message="" type="" />
+      <failure message="" />
     </testcase>
     <testcase name="DateTime_sub-spring-type3-type3">
-      <failure message="" type="" />
+      <failure message="" />
     </testcase>
     <testcase name="DateTime_verify">
     </testcase>
@@ -7745,7 +7745,7 @@
     <testcase name="bug52454">
     </testcase>
     <testcase name="bug52480">
-      <failure message="" type="" />
+      <failure message="" />
     </testcase>
     <testcase name="bug52577">
     </testcase>
@@ -8408,7 +8408,7 @@
     <testcase name="rfc-datetime_and_daylight_saving_time-type3-bd1">
     </testcase>
     <testcase name="rfc-datetime_and_daylight_saving_time-type3-bd2">
-      <failure message="" type="" />
+      <failure message="" />
     </testcase>
     <testcase name="rfc-datetime_and_daylight_saving_time-type3-bs">
     </testcase>
@@ -8417,7 +8417,7 @@
     <testcase name="rfc-datetime_and_daylight_saving_time-type3-fd">
     </testcase>
     <testcase name="rfc-datetime_and_daylight_saving_time-type3-fs">
-      <failure message="" type="" />
+      <failure message="" />
     </testcase>
     <testcase name="strftime_basic">
     </testcase>
@@ -9419,7 +9419,7 @@
     <testcase name="bug42718-2">
     </testcase>
     <testcase name="bug42718">
-      <failure message="" type="" />
+      <failure message="" />
     </testcase>
     <testcase name="bug44445">
     </testcase>
@@ -9434,7 +9434,7 @@
     <testcase name="bug48762">
     </testcase>
     <testcase name="bug49184">
-      <failure message="" type="" />
+      <failure message="" />
     </testcase>
     <testcase name="bug49274">
     </testcase>
@@ -9463,7 +9463,7 @@
     <testcase name="bug67167.01">
     </testcase>
     <testcase name="bug67167.02">
-      <failure message="" type="" />
+      <failure message="" />
     </testcase>
     <testcase name="bug69202">
     </testcase>
@@ -10574,18 +10574,18 @@
     <testcase name="bug37176">
     </testcase>
     <testcase name="bug37773">
-      <failure message="" type="" />
+      <failure message="" />
     </testcase>
     <testcase name="bug48147">
-      <failure message="" type="" />
+      <failure message="" />
     </testcase>
     <testcase name="bug48289">
     </testcase>
     <testcase name="bug51250">
-      <failure message="" type="" />
+      <failure message="" />
     </testcase>
     <testcase name="bug52211">
-      <failure message="" type="" />
+      <failure message="" />
     </testcase>
     <testcase name="bug52941">
     </testcase>
@@ -10596,7 +10596,7 @@
     <testcase name="bug55146">
     </testcase>
     <testcase name="bug60494">
-      <failure message="" type="" />
+      <failure message="" />
     </testcase>
     <testcase name="bug63839">
     </testcase>
@@ -10605,21 +10605,21 @@
     <testcase name="bug68180">
     </testcase>
     <testcase name="bug69840">
-      <failure message="" type="" />
+      <failure message="" />
     </testcase>
     <testcase name="bug72320">
     </testcase>
     <testcase name="bug76249">
-      <failure message="" type="" />
+      <failure message="" />
     </testcase>
     <testcase name="bug77147">
-      <failure message="" type="" />
+      <failure message="" />
     </testcase>
     <testcase name="eucjp2iso2022jp">
-      <failure message="" type="" />
+      <failure message="" />
     </testcase>
     <testcase name="eucjp2sjis">
-      <failure message="" type="" />
+      <failure message="" />
     </testcase>
     <testcase name="eucjp2utf8">
     </testcase>
@@ -10635,7 +10635,7 @@
     <testcase name="iconv004">
     </testcase>
     <testcase name="iconv_basic">
-      <failure message="" type="" />
+      <failure message="" />
     </testcase>
     <testcase name="iconv_basic_001-win32">
       <skipped message="" />
@@ -10656,12 +10656,12 @@
     <testcase name="iconv_mime_decode-charset-length-cve-2007-4840">
     </testcase>
     <testcase name="iconv_mime_decode">
-      <failure message="" type="" />
+      <failure message="" />
     </testcase>
     <testcase name="iconv_mime_decode_headers-charset-length-cve-2007-4840">
     </testcase>
     <testcase name="iconv_mime_decode_headers">
-      <failure message="" type="" />
+      <failure message="" />
     </testcase>
     <testcase name="iconv_mime_decode_headers_variation1">
     </testcase>
@@ -10677,10 +10677,10 @@
       <skipped message="" />
     </testcase>
     <testcase name="iconv_mime_decode_variation3">
-      <failure message="" type="" />
+      <failure message="" />
     </testcase>
     <testcase name="iconv_mime_encode">
-      <failure message="" type="" />
+      <failure message="" />
     </testcase>
     <testcase name="iconv_set_encoding-charset-length-cve-2007-4840">
     </testcase>
@@ -10689,39 +10689,39 @@
     <testcase name="iconv_set_encoding_variation">
     </testcase>
     <testcase name="iconv_stream_filter">
-      <failure message="" type="" />
+      <failure message="" />
     </testcase>
     <testcase name="iconv_stream_filter_delimiter">
-      <failure message="" type="" />
+      <failure message="" />
     </testcase>
     <testcase name="iconv_strlen-charset-length-cve-2007-4840">
     </testcase>
     <testcase name="iconv_strlen">
-      <failure message="" type="" />
+      <failure message="" />
     </testcase>
     <testcase name="iconv_strlen_basic">
     </testcase>
     <testcase name="iconv_strlen_error1">
     </testcase>
     <testcase name="iconv_strlen_error2">
-      <failure message="" type="" />
+      <failure message="" />
     </testcase>
     <testcase name="iconv_strlen_variation1">
     </testcase>
     <testcase name="iconv_strlen_variation2">
-      <failure message="" type="" />
+      <failure message="" />
     </testcase>
     <testcase name="iconv_strpos-charset-length-cve-2007-4840">
     </testcase>
     <testcase name="iconv_strpos">
-      <failure message="" type="" />
+      <failure message="" />
     </testcase>
     <testcase name="iconv_strpos_basic">
     </testcase>
     <testcase name="iconv_strpos_error1">
     </testcase>
     <testcase name="iconv_strpos_error2">
-      <failure message="" type="" />
+      <failure message="" />
     </testcase>
     <testcase name="iconv_strpos_variation1">
     </testcase>
@@ -10733,40 +10733,40 @@
     <testcase name="iconv_strpos_variation3_64bit">
     </testcase>
     <testcase name="iconv_strpos_variation4">
-      <failure message="" type="" />
+      <failure message="" />
     </testcase>
     <testcase name="iconv_strpos_variation5">
     </testcase>
     <testcase name="iconv_strrpos-charset-length-cve-2007-4840">
     </testcase>
     <testcase name="iconv_strrpos">
-      <failure message="" type="" />
+      <failure message="" />
     </testcase>
     <testcase name="iconv_strrpos_basic">
     </testcase>
     <testcase name="iconv_strrpos_error1">
     </testcase>
     <testcase name="iconv_strrpos_error2">
-      <failure message="" type="" />
+      <failure message="" />
     </testcase>
     <testcase name="iconv_strrpos_variation1">
     </testcase>
     <testcase name="iconv_strrpos_variation2">
     </testcase>
     <testcase name="iconv_strrpos_variation3">
-      <failure message="" type="" />
+      <failure message="" />
     </testcase>
     <testcase name="iconv_substr-charset-length-cve-2007-4783">
     </testcase>
     <testcase name="iconv_substr">
-      <failure message="" type="" />
+      <failure message="" />
     </testcase>
     <testcase name="iconv_substr_basic">
     </testcase>
     <testcase name="iconv_substr_error1">
     </testcase>
     <testcase name="iconv_substr_error2">
-      <failure message="" type="" />
+      <failure message="" />
     </testcase>
     <testcase name="ob_iconv_handler-charset-length-cve-2007-4840">
     </testcase>
@@ -11847,7 +11847,7 @@
     <testcase name="066">
     </testcase>
     <testcase name="067">
-      <failure message="" type="" />
+      <failure message="" />
     </testcase>
     <testcase name="068">
     </testcase>
@@ -11896,7 +11896,7 @@
     <testcase name="bug36420">
     </testcase>
     <testcase name="bug36745">
-      <failure message="" type="" />
+      <failure message="" />
     </testcase>
     <testcase name="bug36802">
     </testcase>
@@ -11931,7 +11931,7 @@
     <testcase name="bug49027">
     </testcase>
     <testcase name="bug49442">
-      <failure message="" type="" />
+      <failure message="" />
     </testcase>
     <testcase name="bug50772">
     </testcase>
@@ -11945,7 +11945,7 @@
     <testcase name="bug52891">
     </testcase>
     <testcase name="bug53503">
-      <failure message="" type="" />
+      <failure message="" />
     </testcase>
     <testcase name="bug54221">
     </testcase>
@@ -11978,7 +11978,7 @@
     <testcase name="bug67839">
     </testcase>
     <testcase name="bug68077">
-      <failure message="" type="" />
+      <failure message="" />
     </testcase>
     <testcase name="bug69899">
     </testcase>
@@ -12052,10 +12052,10 @@
       <skipped message="" />
     </testcase>
     <testcase name="mysqli_change_user_old">
-      <failure message="" type="" />
+      <failure message="" />
     </testcase>
     <testcase name="mysqli_change_user_oo">
-      <failure message="" type="" />
+      <failure message="" />
     </testcase>
     <testcase name="mysqli_change_user_prepared_statements">
     </testcase>
@@ -12240,7 +12240,7 @@
     <testcase name="mysqli_get_client_info">
     </testcase>
     <testcase name="mysqli_get_client_stats">
-      <failure message="" type="" />
+      <failure message="" />
     </testcase>
     <testcase name="mysqli_get_client_stats_implicit_free">
     </testcase>
@@ -12355,7 +12355,7 @@
     <testcase name="mysqli_poll">
     </testcase>
     <testcase name="mysqli_poll_kill">
-      <failure message="" type="" />
+      <failure message="" />
     </testcase>
     <testcase name="mysqli_poll_mixing_insert_select">
     </testcase>
@@ -12446,7 +12446,7 @@
       <skipped message="" />
     </testcase>
     <testcase name="mysqli_stmt_attr_set">
-      <failure message="" type="" />
+      <failure message="" />
     </testcase>
     <testcase name="mysqli_stmt_big_prepare">
     </testcase>
@@ -12489,10 +12489,10 @@
     <testcase name="mysqli_stmt_execute_stored_proc">
     </testcase>
     <testcase name="mysqli_stmt_execute_stored_proc_next_result">
-      <failure message="" type="" />
+      <failure message="" />
     </testcase>
     <testcase name="mysqli_stmt_execute_stored_proc_out">
-      <failure message="" type="" />
+      <failure message="" />
     </testcase>
     <testcase name="mysqli_stmt_fetch">
     </testcase>
@@ -12548,13 +12548,13 @@
       <skipped message="" />
     </testcase>
     <testcase name="mysqli_stmt_send_long_data">
-      <failure message="" type="" />
+      <failure message="" />
     </testcase>
     <testcase name="mysqli_stmt_send_long_data_packet_size_libmysql">
       <skipped message="" />
     </testcase>
     <testcase name="mysqli_stmt_send_long_data_packet_size_mysqlnd">
-      <failure message="" type="" />
+      <failure message="" />
     </testcase>
     <testcase name="mysqli_stmt_sqlstate">
     </testcase>
@@ -12998,19 +12998,19 @@
     <testcase name="bug41353">
     </testcase>
     <testcase name="bug46127">
-      <failure message="" type="" />
+      <failure message="" />
     </testcase>
     <testcase name="bug47828">
     </testcase>
     <testcase name="bug48182">
-      <failure message="" type="" />
+      <failure message="" />
     </testcase>
     <testcase name="bug54060">
     </testcase>
     <testcase name="bug54061">
     </testcase>
     <testcase name="bug54992">
-      <failure message="" type="" />
+      <failure message="" />
     </testcase>
     <testcase name="bug55259">
     </testcase>
@@ -13025,12 +13025,12 @@
     <testcase name="bug64802">
     </testcase>
     <testcase name="bug65538_001">
-      <failure message="" type="" />
+      <failure message="" />
     </testcase>
     <testcase name="bug65538_002">
     </testcase>
     <testcase name="bug65538_003">
-      <failure message="" type="" />
+      <failure message="" />
     </testcase>
     <testcase name="bug65698">
     </testcase>
@@ -13061,10 +13061,10 @@
     <testcase name="bug71917">
     </testcase>
     <testcase name="bug72165">
-      <failure message="" type="" />
+      <failure message="" />
     </testcase>
     <testcase name="bug72333">
-      <failure message="" type="" />
+      <failure message="" />
     </testcase>
     <testcase name="bug72336">
     </testcase>
@@ -13085,7 +13085,7 @@
     <testcase name="bug74099">
     </testcase>
     <testcase name="bug74159">
-      <failure message="" type="" />
+      <failure message="" />
     </testcase>
     <testcase name="bug74341">
     </testcase>
@@ -13112,7 +13112,7 @@
       <skipped message="" />
     </testcase>
     <testcase name="capture_peer_cert_001">
-      <failure message="" type="" />
+      <failure message="" />
     </testcase>
     <testcase name="check_default_conf_path">
       <skipped message="" />
@@ -13122,7 +13122,7 @@
     <testcase name="cve2013_4073">
     </testcase>
     <testcase name="ecc">
-      <failure message="" type="" />
+      <failure message="" />
     </testcase>
     <testcase name="openssl_csr_export_bacis">
     </testcase>
@@ -13155,7 +13155,7 @@
     <testcase name="openssl_encrypt_gcm">
     </testcase>
     <testcase name="openssl_error_string_basic">
-      <failure message="" type="" />
+      <failure message="" />
     </testcase>
     <testcase name="openssl_free_key">
       <skipped message="" />
@@ -13171,7 +13171,7 @@
     <testcase name="openssl_pbkdf2_basic">
     </testcase>
     <testcase name="openssl_peer_fingerprint_basic">
-      <failure message="" type="" />
+      <failure message="" />
     </testcase>
     <testcase name="openssl_pkcs12_export_basic">
     </testcase>
@@ -13246,43 +13246,43 @@
     <testcase name="openssl_x509_read_basic">
     </testcase>
     <testcase name="peer_verification">
-      <failure message="" type="" />
+      <failure message="" />
     </testcase>
     <testcase name="san_peer_matching">
     </testcase>
     <testcase name="session_meta_capture">
-      <failure message="" type="" />
+      <failure message="" />
     </testcase>
     <testcase name="sni_server">
     </testcase>
     <testcase name="sni_server_key_cert">
     </testcase>
     <testcase name="stream_crypto_flags_001">
-      <failure message="" type="" />
+      <failure message="" />
     </testcase>
     <testcase name="stream_crypto_flags_002">
-      <failure message="" type="" />
+      <failure message="" />
     </testcase>
     <testcase name="stream_crypto_flags_003">
-      <failure message="" type="" />
+      <failure message="" />
     </testcase>
     <testcase name="stream_crypto_flags_004">
-      <failure message="" type="" />
+      <failure message="" />
     </testcase>
     <testcase name="stream_security_level">
-      <failure message="" type="" />
+      <failure message="" />
     </testcase>
     <testcase name="stream_server_reneg_limit">
       <skipped message="" />
     </testcase>
     <testcase name="stream_verify_peer_name_001">
-      <failure message="" type="" />
+      <failure message="" />
     </testcase>
     <testcase name="stream_verify_peer_name_002">
-      <failure message="" type="" />
+      <failure message="" />
     </testcase>
     <testcase name="stream_verify_peer_name_003">
-      <failure message="" type="" />
+      <failure message="" />
     </testcase>
     <testcase name="streams_crypto_method">
     </testcase>
@@ -13301,7 +13301,7 @@
     <testcase name="001">
     </testcase>
     <testcase name="002">
-      <failure message="" type="" />
+      <failure message="" />
     </testcase>
     <testcase name="003">
     </testcase>
@@ -13730,7 +13730,7 @@
     <testcase name="pdo_021">
     </testcase>
     <testcase name="pdo_022">
-      <failure message="" type="" />
+      <failure message="" />
     </testcase>
     <testcase name="pdo_023">
     </testcase>
@@ -13817,7 +13817,7 @@
     <testcase name="bug_39483">
     </testcase>
     <testcase name="bug_39858">
-      <failure message="" type="" />
+      <failure message="" />
     </testcase>
     <testcase name="bug_41125">
       <skipped message="" />
@@ -13825,7 +13825,7 @@
     <testcase name="bug_41698">
     </testcase>
     <testcase name="bug_41997">
-      <failure message="" type="" />
+      <failure message="" />
     </testcase>
     <testcase name="bug_42499">
     </testcase>
@@ -13852,7 +13852,7 @@
     <testcase name="bug_pecl_12925">
     </testcase>
     <testcase name="bug_pecl_7976">
-      <failure message="" type="" />
+      <failure message="" />
     </testcase>
     <testcase name="last_insert_id">
     </testcase>
@@ -13862,7 +13862,7 @@
       <skipped message="" />
     </testcase>
     <testcase name="pdo_mysql___construct_options">
-      <failure message="" type="" />
+      <failure message="" />
     </testcase>
     <testcase name="pdo_mysql___construct_options_libmysql">
       <skipped message="" />
@@ -13935,7 +13935,7 @@
     <testcase name="pdo_mysql_local_infile_default_off">
     </testcase>
     <testcase name="pdo_mysql_local_infile_set_on">
-      <failure message="" type="" />
+      <failure message="" />
     </testcase>
     <testcase name="pdo_mysql_multi_stmt_nextrowset">
     </testcase>
@@ -13946,7 +13946,7 @@
     <testcase name="pdo_mysql_phpinfo">
     </testcase>
     <testcase name="pdo_mysql_prepare_emulated">
-      <error message="" type="" />
+      <error message="" />
     </testcase>
     <testcase name="pdo_mysql_prepare_emulated_anonymous">
     </testcase>
@@ -14010,7 +14010,7 @@
     <testcase name="pdo_mysql_stmt_multiquery">
     </testcase>
     <testcase name="pdo_mysql_stmt_nextrowset">
-      <failure message="" type="" />
+      <failure message="" />
     </testcase>
     <testcase name="pdo_mysql_stmt_rowcount">
     </testcase>
@@ -14018,7 +14018,7 @@
       <skipped message="" />
     </testcase>
     <testcase name="pdo_mysql_stmt_variable_columncount">
-      <failure message="" type="" />
+      <failure message="" />
     </testcase>
     <testcase name="pdo_mysql_subclass">
     </testcase>
@@ -14037,10 +14037,10 @@
   </testsuite>
   <testsuite name="ext/pdo_odbc" tests="2" disabled="0" errors="0" failures="2" skipped="0">
     <testcase name="long_columns">
-      <failure message="" type="" />
+      <failure message="" />
     </testcase>
     <testcase name="max_columns">
-      <failure message="" type="" />
+      <failure message="" />
     </testcase>
   </testsuite>
   <testsuite name="ext/pdo_sqlite" tests="29" disabled="0" errors="0" failures="0" skipped="1">
@@ -14237,7 +14237,7 @@
     <testcase name="bug69720">
     </testcase>
     <testcase name="bug69958">
-      <failure message="" type="" />
+      <failure message="" />
     </testcase>
     <testcase name="bug70019">
     </testcase>
@@ -16212,7 +16212,7 @@
     <testcase name="bug70876">
     </testcase>
     <testcase name="bug71162">
-      <failure message="" type="" />
+      <failure message="" />
     </testcase>
     <testcase name="bug71603">
     </testcase>
@@ -16231,7 +16231,7 @@
     <testcase name="bug73273">
     </testcase>
     <testcase name="bug73529">
-      <failure message="" type="" />
+      <failure message="" />
     </testcase>
     <testcase name="bug74514">
     </testcase>
@@ -16846,7 +16846,7 @@
     <testcase name="bug71996">
     </testcase>
     <testcase name="bug73037">
-      <failure message="" type="" />
+      <failure message="" />
     </testcase>
     <testcase name="bug73452">
     </testcase>
@@ -16973,7 +16973,7 @@
     <testcase name="bug29061">
     </testcase>
     <testcase name="bug29109">
-      <failure message="" type="" />
+      <failure message="" />
     </testcase>
     <testcase name="bug29236">
     </testcase>
@@ -17970,14 +17970,14 @@
       <skipped message="" />
     </testcase>
     <testcase name="socket_cmsg_rights">
-      <failure message="" type="" />
+      <failure message="" />
     </testcase>
     <testcase name="socket_connect_error">
     </testcase>
     <testcase name="socket_connect_params">
     </testcase>
     <testcase name="socket_create_listen-nobind">
-      <failure message="" type="" />
+      <failure message="" />
     </testcase>
     <testcase name="socket_create_listen-win32">
       <skipped message="" />
@@ -17994,7 +17994,7 @@
       <skipped message="" />
     </testcase>
     <testcase name="socket_create_pair-wrongparams">
-      <failure message="" type="" />
+      <failure message="" />
     </testcase>
     <testcase name="socket_create_pair">
     </testcase>
@@ -18016,7 +18016,13 @@
       <skipped message="" />
     </testcase>
     <testcase name="socket_getopt">
-      <failure message="" type="" />
+      <failure message="016+ 
+017+ Warning: socket_set_option(): Failed obtaining address for interface 1: error 22 in /QOpenSys/home/kadler/php-src/ext/sockets/tests/socket_getopt.php on line 31
+016- bool(true)
+017- int(1)
+018+ bool(false)
+019+ int(0)
+" />
     </testcase>
     <testcase name="socket_getpeername">
     </testcase>
@@ -18048,7 +18054,7 @@
     <testcase name="socket_read_params">
     </testcase>
     <testcase name="socket_recvmsg">
-      <failure message="" type="" />
+      <failure message="" />
     </testcase>
     <testcase name="socket_select-wrongparams-1-win32">
       <skipped message="" />
@@ -18064,7 +18070,7 @@
     <testcase name="socket_select">
     </testcase>
     <testcase name="socket_send">
-      <failure message="" type="" />
+      <failure message="" />
     </testcase>
     <testcase name="socket_send_params">
     </testcase>
@@ -18075,7 +18081,7 @@
       <skipped message="" />
     </testcase>
     <testcase name="socket_sendrecvmsg_multi_msg">
-      <failure message="" type="" />
+      <failure message="" />
     </testcase>
     <testcase name="socket_sendto_params">
     </testcase>
@@ -18085,10 +18091,10 @@
       <skipped message="" />
     </testcase>
     <testcase name="socket_sentto_recvfrom_ipv6_udp">
-      <failure message="" type="" />
+      <failure message="" />
     </testcase>
     <testcase name="socket_sentto_recvfrom_unix">
-      <failure message="" type="" />
+      <failure message="" />
     </testcase>
     <testcase name="socket_set_block-retval">
     </testcase>
@@ -18104,7 +18110,7 @@
       <skipped message="" />
     </testcase>
     <testcase name="socket_set_option_error_socket_option">
-      <failure message="" type="" />
+      <failure message="" />
     </testcase>
     <testcase name="socket_set_option_in6_pktinfo">
     </testcase>
@@ -18118,7 +18124,7 @@
       <skipped message="" />
     </testcase>
     <testcase name="socket_shutdown">
-      <failure message="" type="" />
+      <failure message="" />
     </testcase>
     <testcase name="socket_strerror">
       <skipped message="" />
@@ -22239,7 +22245,7 @@
     <testcase name="006_basic">
     </testcase>
     <testcase name="006_error">
-      <failure message="" type="" />
+      <failure message="" />
     </testcase>
     <testcase name="006_variation1">
     </testcase>
@@ -26116,7 +26122,7 @@
     <testcase name="bug70213">
     </testcase>
     <testcase name="bug70219">
-      <failure message="" type="" />
+      <failure message="" />
     </testcase>
     <testcase name="bug70219_1">
     </testcase>
@@ -26461,7 +26467,7 @@
     <testcase name="stream_set_timeout_error">
     </testcase>
     <testcase name="stream_socket_enable_crypto">
-      <failure message="" type="" />
+      <failure message="" />
     </testcase>
     <testcase name="stream_socket_get_name">
     </testcase>
