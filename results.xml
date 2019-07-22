@@ -7016,7 +7016,7 @@
     <testcase name="jdtogregorian">
     </testcase>
     <testcase name="jdtogregorian_overflow">
-      <skipped message="this test is for 32bit platforms only" />
+      <skipped message="" />
     </testcase>
     <testcase name="jdtojewish">
     </testcase>
@@ -13777,7 +13777,7 @@
     <testcase name="pecl_bug_5809">
     </testcase>
   </testsuite>
-  <testsuite name="ext/pdo_mysql" tests="120" disabled="0" errors="1" failures="8" skipped="8">
+  <testsuite name="ext/pdo_mysql" tests="120" disabled="0" errors="1" failures="7" skipped="8">
     <testcase name="PDO_getAvaliableDrivers">
     </testcase>
     <testcase name="bug41125">
@@ -13938,7 +13938,6 @@
       <failure message="" type="" />
     </testcase>
     <testcase name="pdo_mysql_multi_stmt_nextrowset">
-      <failure message="" type="" />
     </testcase>
     <testcase name="pdo_mysql_param_str_natl">
     </testcase>
@@ -18017,13 +18016,7 @@
       <skipped message="" />
     </testcase>
     <testcase name="socket_getopt">
-      <failure message="016+ 
-017+ Warning: socket_set_option(): Failed obtaining address for interface 1: error 22 in /QOpenSys/home/kadler/php-src/ext/sockets/tests/socket_getopt.php on line 31
-016- bool(true)
-017- int(1)
-018+ bool(false)
-019+ int(0)
-" type="" />
+      <failure message="" type="" />
     </testcase>
     <testcase name="socket_getpeername">
     </testcase>
