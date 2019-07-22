@@ -1098,91 +1098,91 @@
     </testcase>
     <testcase name="execution_order" classname="tests/lang.execution_order">
     </testcase>
-    <testcase name="foreachLoop.001" classname="tests/lang.foreachLoop.001">
+    <testcase name="foreachLoop-001" classname="tests/lang.foreachLoop-001">
     </testcase>
-    <testcase name="foreachLoop.002" classname="tests/lang.foreachLoop.002">
+    <testcase name="foreachLoop-002" classname="tests/lang.foreachLoop-002">
     </testcase>
-    <testcase name="foreachLoop.003" classname="tests/lang.foreachLoop.003">
+    <testcase name="foreachLoop-003" classname="tests/lang.foreachLoop-003">
     </testcase>
-    <testcase name="foreachLoop.004" classname="tests/lang.foreachLoop.004">
+    <testcase name="foreachLoop-004" classname="tests/lang.foreachLoop-004">
     </testcase>
-    <testcase name="foreachLoop.005" classname="tests/lang.foreachLoop.005">
+    <testcase name="foreachLoop-005" classname="tests/lang.foreachLoop-005">
     </testcase>
-    <testcase name="foreachLoop.006" classname="tests/lang.foreachLoop.006">
+    <testcase name="foreachLoop-006" classname="tests/lang.foreachLoop-006">
     </testcase>
-    <testcase name="foreachLoop.009" classname="tests/lang.foreachLoop.009">
+    <testcase name="foreachLoop-009" classname="tests/lang.foreachLoop-009">
     </testcase>
-    <testcase name="foreachLoop.010" classname="tests/lang.foreachLoop.010">
+    <testcase name="foreachLoop-010" classname="tests/lang.foreachLoop-010">
     </testcase>
-    <testcase name="foreachLoop.011" classname="tests/lang.foreachLoop.011">
+    <testcase name="foreachLoop-011" classname="tests/lang.foreachLoop-011">
     </testcase>
-    <testcase name="foreachLoop.012" classname="tests/lang.foreachLoop.012">
+    <testcase name="foreachLoop-012" classname="tests/lang.foreachLoop-012">
     </testcase>
-    <testcase name="foreachLoop.013" classname="tests/lang.foreachLoop.013">
+    <testcase name="foreachLoop-013" classname="tests/lang.foreachLoop-013">
     </testcase>
-    <testcase name="foreachLoop.014" classname="tests/lang.foreachLoop.014">
+    <testcase name="foreachLoop-014" classname="tests/lang.foreachLoop-014">
     </testcase>
-    <testcase name="foreachLoop.015" classname="tests/lang.foreachLoop.015">
+    <testcase name="foreachLoop-015" classname="tests/lang.foreachLoop-015">
     </testcase>
-    <testcase name="foreachLoop.016" classname="tests/lang.foreachLoop.016">
+    <testcase name="foreachLoop-016" classname="tests/lang.foreachLoop-016">
     </testcase>
-    <testcase name="foreachLoop.017" classname="tests/lang.foreachLoop.017">
+    <testcase name="foreachLoop-017" classname="tests/lang.foreachLoop-017">
     </testcase>
-    <testcase name="foreachLoopIterator.001" classname="tests/lang.foreachLoopIterator.001">
+    <testcase name="foreachLoopIterator-001" classname="tests/lang.foreachLoopIterator-001">
     </testcase>
-    <testcase name="foreachLoopIterator.002" classname="tests/lang.foreachLoopIterator.002">
+    <testcase name="foreachLoopIterator-002" classname="tests/lang.foreachLoopIterator-002">
     </testcase>
-    <testcase name="foreachLoopIteratorAggregate.001" classname="tests/lang.foreachLoopIteratorAggregate.001">
+    <testcase name="foreachLoopIteratorAggregate-001" classname="tests/lang.foreachLoopIteratorAggregate-001">
     </testcase>
-    <testcase name="foreachLoopIteratorAggregate.002" classname="tests/lang.foreachLoopIteratorAggregate.002">
+    <testcase name="foreachLoopIteratorAggregate-002" classname="tests/lang.foreachLoopIteratorAggregate-002">
     </testcase>
-    <testcase name="foreachLoopIteratorAggregate.003" classname="tests/lang.foreachLoopIteratorAggregate.003">
+    <testcase name="foreachLoopIteratorAggregate-003" classname="tests/lang.foreachLoopIteratorAggregate-003">
     </testcase>
-    <testcase name="foreachLoopIteratorAggregate.004" classname="tests/lang.foreachLoopIteratorAggregate.004">
+    <testcase name="foreachLoopIteratorAggregate-004" classname="tests/lang.foreachLoopIteratorAggregate-004">
     </testcase>
-    <testcase name="foreachLoopObjects.001" classname="tests/lang.foreachLoopObjects.001">
+    <testcase name="foreachLoopObjects-001" classname="tests/lang.foreachLoopObjects-001">
     </testcase>
-    <testcase name="foreachLoopObjects.002" classname="tests/lang.foreachLoopObjects.002">
+    <testcase name="foreachLoopObjects-002" classname="tests/lang.foreachLoopObjects-002">
     </testcase>
-    <testcase name="foreachLoopObjects.003" classname="tests/lang.foreachLoopObjects.003">
+    <testcase name="foreachLoopObjects-003" classname="tests/lang.foreachLoopObjects-003">
     </testcase>
-    <testcase name="foreachLoopObjects.004" classname="tests/lang.foreachLoopObjects.004">
+    <testcase name="foreachLoopObjects-004" classname="tests/lang.foreachLoopObjects-004">
     </testcase>
-    <testcase name="foreachLoopObjects.005" classname="tests/lang.foreachLoopObjects.005">
+    <testcase name="foreachLoopObjects-005" classname="tests/lang.foreachLoopObjects-005">
     </testcase>
-    <testcase name="foreachLoopObjects.006" classname="tests/lang.foreachLoopObjects.006">
+    <testcase name="foreachLoopObjects-006" classname="tests/lang.foreachLoopObjects-006">
     </testcase>
     <testcase name="foreach_with_object_001" classname="tests/lang.foreach_with_object_001">
     </testcase>
     <testcase name="foreach_with_references_001" classname="tests/lang.foreach_with_references_001">
     </testcase>
-    <testcase name="func_get_arg.001" classname="tests/lang.func_get_arg.001">
+    <testcase name="func_get_arg-001" classname="tests/lang.func_get_arg-001">
     </testcase>
-    <testcase name="func_get_arg.002" classname="tests/lang.func_get_arg.002">
+    <testcase name="func_get_arg-002" classname="tests/lang.func_get_arg-002">
     </testcase>
-    <testcase name="func_get_arg.003" classname="tests/lang.func_get_arg.003">
+    <testcase name="func_get_arg-003" classname="tests/lang.func_get_arg-003">
     </testcase>
-    <testcase name="func_get_arg.004" classname="tests/lang.func_get_arg.004">
+    <testcase name="func_get_arg-004" classname="tests/lang.func_get_arg-004">
     </testcase>
-    <testcase name="func_get_arg.005" classname="tests/lang.func_get_arg.005">
+    <testcase name="func_get_arg-005" classname="tests/lang.func_get_arg-005">
     </testcase>
     <testcase name="func_get_arg_variation" classname="tests/lang.func_get_arg_variation">
     </testcase>
-    <testcase name="func_get_args.001" classname="tests/lang.func_get_args.001">
+    <testcase name="func_get_args-001" classname="tests/lang.func_get_args-001">
     </testcase>
-    <testcase name="func_get_args.002" classname="tests/lang.func_get_args.002">
+    <testcase name="func_get_args-002" classname="tests/lang.func_get_args-002">
     </testcase>
-    <testcase name="func_get_args.003" classname="tests/lang.func_get_args.003">
+    <testcase name="func_get_args-003" classname="tests/lang.func_get_args-003">
     </testcase>
-    <testcase name="func_get_args.004" classname="tests/lang.func_get_args.004">
+    <testcase name="func_get_args-004" classname="tests/lang.func_get_args-004">
     </testcase>
-    <testcase name="func_num_args.001" classname="tests/lang.func_num_args.001">
+    <testcase name="func_num_args-001" classname="tests/lang.func_num_args-001">
     </testcase>
-    <testcase name="func_num_args.002" classname="tests/lang.func_num_args.002">
+    <testcase name="func_num_args-002" classname="tests/lang.func_num_args-002">
     </testcase>
-    <testcase name="func_num_args.003" classname="tests/lang.func_num_args.003">
+    <testcase name="func_num_args-003" classname="tests/lang.func_num_args-003">
     </testcase>
-    <testcase name="func_num_args.004" classname="tests/lang.func_num_args.004">
+    <testcase name="func_num_args-004" classname="tests/lang.func_num_args-004">
     </testcase>
     <testcase name="include_variation1" classname="tests/lang.include_variation1">
     </testcase>
@@ -1214,29 +1214,29 @@
     </testcase>
     <testcase name="passByReference_012" classname="tests/lang.passByReference_012">
     </testcase>
-    <testcase name="returnByReference.001" classname="tests/lang.returnByReference.001">
+    <testcase name="returnByReference-001" classname="tests/lang.returnByReference-001">
     </testcase>
-    <testcase name="returnByReference.002" classname="tests/lang.returnByReference.002">
+    <testcase name="returnByReference-002" classname="tests/lang.returnByReference-002">
     </testcase>
-    <testcase name="returnByReference.003" classname="tests/lang.returnByReference.003">
+    <testcase name="returnByReference-003" classname="tests/lang.returnByReference-003">
     </testcase>
-    <testcase name="returnByReference.004" classname="tests/lang.returnByReference.004">
+    <testcase name="returnByReference-004" classname="tests/lang.returnByReference-004">
     </testcase>
-    <testcase name="returnByReference.005" classname="tests/lang.returnByReference.005">
+    <testcase name="returnByReference-005" classname="tests/lang.returnByReference-005">
     </testcase>
-    <testcase name="returnByReference.006" classname="tests/lang.returnByReference.006">
+    <testcase name="returnByReference-006" classname="tests/lang.returnByReference-006">
     </testcase>
-    <testcase name="returnByReference.007" classname="tests/lang.returnByReference.007">
+    <testcase name="returnByReference-007" classname="tests/lang.returnByReference-007">
     </testcase>
-    <testcase name="returnByReference.008" classname="tests/lang.returnByReference.008">
+    <testcase name="returnByReference-008" classname="tests/lang.returnByReference-008">
     </testcase>
-    <testcase name="returnByReference.009" classname="tests/lang.returnByReference.009">
+    <testcase name="returnByReference-009" classname="tests/lang.returnByReference-009">
     </testcase>
-    <testcase name="short_tags.001" classname="tests/lang.short_tags.001">
+    <testcase name="short_tags-001" classname="tests/lang.short_tags-001">
     </testcase>
-    <testcase name="short_tags.002" classname="tests/lang.short_tags.002">
+    <testcase name="short_tags-002" classname="tests/lang.short_tags-002">
     </testcase>
-    <testcase name="short_tags.004" classname="tests/lang.short_tags.004">
+    <testcase name="short_tags-004" classname="tests/lang.short_tags-004">
     </testcase>
     <testcase name="static_basic_001" classname="tests/lang.static_basic_001">
     </testcase>
@@ -2912,11 +2912,11 @@
     </testcase>
     <testcase name="bug64720" classname="Zend.bug64720">
     </testcase>
-    <testcase name="bug64821.1" classname="Zend.bug64821.1">
+    <testcase name="bug64821-1" classname="Zend.bug64821-1">
     </testcase>
-    <testcase name="bug64821.2" classname="Zend.bug64821.2">
+    <testcase name="bug64821-2" classname="Zend.bug64821-2">
     </testcase>
-    <testcase name="bug64821.3" classname="Zend.bug64821.3">
+    <testcase name="bug64821-3" classname="Zend.bug64821-3">
     </testcase>
     <testcase name="bug64896" classname="Zend.bug64896">
     </testcase>
@@ -3024,7 +3024,7 @@
     </testcase>
     <testcase name="bug69025" classname="Zend.bug69025">
     </testcase>
-    <testcase name="bug69092.2" classname="Zend.bug69092.2">
+    <testcase name="bug69092-2" classname="Zend.bug69092-2">
     </testcase>
     <testcase name="bug69092" classname="Zend.bug69092">
     </testcase>
@@ -3267,11 +3267,11 @@
     </testcase>
     <testcase name="bug71414" classname="Zend.bug71414">
     </testcase>
-    <testcase name="bug71428.1" classname="Zend.bug71428.1">
+    <testcase name="bug71428-1" classname="Zend.bug71428-1">
     </testcase>
-    <testcase name="bug71428.2" classname="Zend.bug71428.2">
+    <testcase name="bug71428-2" classname="Zend.bug71428-2">
     </testcase>
-    <testcase name="bug71428.3" classname="Zend.bug71428.3">
+    <testcase name="bug71428-3" classname="Zend.bug71428-3">
     </testcase>
     <testcase name="bug71470" classname="Zend.bug71470">
     </testcase>
@@ -3486,37 +3486,37 @@
     </testcase>
     <testcase name="bug75290" classname="Zend.bug75290">
     </testcase>
-    <testcase name="bug75420.1" classname="Zend.bug75420.1">
+    <testcase name="bug75420-1" classname="Zend.bug75420-1">
     </testcase>
-    <testcase name="bug75420.10" classname="Zend.bug75420.10">
+    <testcase name="bug75420-10" classname="Zend.bug75420-10">
     </testcase>
-    <testcase name="bug75420.11" classname="Zend.bug75420.11">
+    <testcase name="bug75420-11" classname="Zend.bug75420-11">
     </testcase>
-    <testcase name="bug75420.12" classname="Zend.bug75420.12">
+    <testcase name="bug75420-12" classname="Zend.bug75420-12">
     </testcase>
-    <testcase name="bug75420.13" classname="Zend.bug75420.13">
+    <testcase name="bug75420-13" classname="Zend.bug75420-13">
     </testcase>
-    <testcase name="bug75420.14" classname="Zend.bug75420.14">
+    <testcase name="bug75420-14" classname="Zend.bug75420-14">
     </testcase>
-    <testcase name="bug75420.15" classname="Zend.bug75420.15">
+    <testcase name="bug75420-15" classname="Zend.bug75420-15">
     </testcase>
-    <testcase name="bug75420.16" classname="Zend.bug75420.16">
+    <testcase name="bug75420-16" classname="Zend.bug75420-16">
     </testcase>
-    <testcase name="bug75420.2" classname="Zend.bug75420.2">
+    <testcase name="bug75420-2" classname="Zend.bug75420-2">
     </testcase>
-    <testcase name="bug75420.3" classname="Zend.bug75420.3">
+    <testcase name="bug75420-3" classname="Zend.bug75420-3">
     </testcase>
-    <testcase name="bug75420.4" classname="Zend.bug75420.4">
+    <testcase name="bug75420-4" classname="Zend.bug75420-4">
     </testcase>
-    <testcase name="bug75420.5" classname="Zend.bug75420.5">
+    <testcase name="bug75420-5" classname="Zend.bug75420-5">
     </testcase>
-    <testcase name="bug75420.6" classname="Zend.bug75420.6">
+    <testcase name="bug75420-6" classname="Zend.bug75420-6">
     </testcase>
-    <testcase name="bug75420.7" classname="Zend.bug75420.7">
+    <testcase name="bug75420-7" classname="Zend.bug75420-7">
     </testcase>
-    <testcase name="bug75420.8" classname="Zend.bug75420.8">
+    <testcase name="bug75420-8" classname="Zend.bug75420-8">
     </testcase>
-    <testcase name="bug75420.9" classname="Zend.bug75420.9">
+    <testcase name="bug75420-9" classname="Zend.bug75420-9">
     </testcase>
     <testcase name="bug75420" classname="Zend.bug75420">
     </testcase>
@@ -3965,11 +3965,11 @@
     </testcase>
     <testcase name="debug_backtrace_with_include_and_this" classname="Zend.debug_backtrace_with_include_and_this">
     </testcase>
-    <testcase name="debug_info-error-0.0" classname="Zend.debug_info-error-0.0">
+    <testcase name="debug_info-error-0-0" classname="Zend.debug_info-error-0-0">
     </testcase>
     <testcase name="debug_info-error-0" classname="Zend.debug_info-error-0">
     </testcase>
-    <testcase name="debug_info-error-1.0" classname="Zend.debug_info-error-1.0">
+    <testcase name="debug_info-error-1-0" classname="Zend.debug_info-error-1-0">
     </testcase>
     <testcase name="debug_info-error-1" classname="Zend.debug_info-error-1">
     </testcase>
@@ -6917,7 +6917,7 @@
     </testcase>
     <testcase name="bcsub_error1" classname="ext/bcmath.bcsub_error1">
     </testcase>
-    <testcase name="bug.66364" classname="ext/bcmath.bug.66364">
+    <testcase name="bug-66364" classname="ext/bcmath.bug-66364">
     </testcase>
     <testcase name="bug44995" classname="ext/bcmath.bug44995">
     </testcase>
@@ -9460,9 +9460,9 @@
     </testcase>
     <testcase name="bug64441" classname="ext/filter.bug64441">
     </testcase>
-    <testcase name="bug67167.01" classname="ext/filter.bug67167.01">
+    <testcase name="bug67167-01" classname="ext/filter.bug67167-01">
     </testcase>
-    <testcase name="bug67167.02" classname="ext/filter.bug67167.02">
+    <testcase name="bug67167-02" classname="ext/filter.bug67167-02">
       <failure message="" />
     </testcase>
     <testcase name="bug69202" classname="ext/filter.bug69202">
@@ -10916,9 +10916,9 @@
     </testcase>
     <testcase name="json_last_error_msg_error" classname="ext/json.json_last_error_msg_error">
     </testcase>
-    <testcase name="pass001.1" classname="ext/json.pass001.1">
+    <testcase name="pass001-1" classname="ext/json.pass001-1">
     </testcase>
-    <testcase name="pass001.1_64bit" classname="ext/json.pass001.1_64bit">
+    <testcase name="pass001-1_64bit" classname="ext/json.pass001-1_64bit">
     </testcase>
     <testcase name="pass001" classname="ext/json.pass001">
     </testcase>
@@ -13286,15 +13286,15 @@
     </testcase>
     <testcase name="streams_crypto_method" classname="ext/openssl.streams_crypto_method">
     </testcase>
-    <testcase name="tls_min_v1.0_max_v1.1_wrapper" classname="ext/openssl.tls_min_v1.0_max_v1.1_wrapper">
+    <testcase name="tls_min_v1-0_max_v1-1_wrapper" classname="ext/openssl.tls_min_v1-0_max_v1-1_wrapper">
     </testcase>
     <testcase name="tls_wrapper" classname="ext/openssl.tls_wrapper">
     </testcase>
-    <testcase name="tlsv1.0_wrapper" classname="ext/openssl.tlsv1.0_wrapper">
+    <testcase name="tlsv1-0_wrapper" classname="ext/openssl.tlsv1-0_wrapper">
     </testcase>
-    <testcase name="tlsv1.1_wrapper" classname="ext/openssl.tlsv1.1_wrapper">
+    <testcase name="tlsv1-1_wrapper" classname="ext/openssl.tlsv1-1_wrapper">
     </testcase>
-    <testcase name="tlsv1.2_wrapper" classname="ext/openssl.tlsv1.2_wrapper">
+    <testcase name="tlsv1-2_wrapper" classname="ext/openssl.tlsv1-2_wrapper">
     </testcase>
   </testsuite>
   <testsuite name="ext/pcntl" tests="22" disabled="0" errors="0" failures="1" skipped="1">
@@ -13508,7 +13508,7 @@
     </testcase>
     <testcase name="null_bytes" classname="ext/pcre.null_bytes">
     </testcase>
-    <testcase name="pcre.constants" classname="ext/pcre.pcre.constants">
+    <testcase name="pcre-constants" classname="ext/pcre.pcre-constants">
     </testcase>
     <testcase name="pcre_anchored" classname="ext/pcre.pcre_anchored">
     </testcase>
@@ -14206,7 +14206,7 @@
     </testcase>
     <testcase name="bug47085" classname="ext/phar.bug47085">
     </testcase>
-    <testcase name="bug48377.2" classname="ext/phar.bug48377.2">
+    <testcase name="bug48377-2" classname="ext/phar.bug48377-2">
     </testcase>
     <testcase name="bug48377" classname="ext/phar.bug48377">
     </testcase>
@@ -14319,7 +14319,7 @@
     </testcase>
     <testcase name="fopen_edgecases2" classname="ext/phar.fopen_edgecases2">
     </testcase>
-    <testcase name="front.phar" classname="ext/phar.front.phar">
+    <testcase name="front-phar" classname="ext/phar.front-phar">
     </testcase>
     <testcase name="frontcontroller1" classname="ext/phar.frontcontroller1">
     </testcase>
@@ -14672,7 +14672,7 @@
     </testcase>
     <testcase name="stat" classname="ext/phar.stat">
     </testcase>
-    <testcase name="stat2_5.3" classname="ext/phar.stat2_5.3">
+    <testcase name="stat2_5-3" classname="ext/phar.stat2_5-3">
     </testcase>
     <testcase name="test_alias_unset" classname="ext/phar.test_alias_unset">
     </testcase>
@@ -14694,57 +14694,57 @@
     </testcase>
   </testsuite>
   <testsuite name="ext/phar/cache_list" tests="60" disabled="0" errors="0" failures="0" skipped="1">
-    <testcase name="copyonwrite1.phar" classname="ext/phar/cache_list.copyonwrite1.phar">
+    <testcase name="copyonwrite1-phar" classname="ext/phar/cache_list.copyonwrite1-phar">
     </testcase>
-    <testcase name="copyonwrite10.phar" classname="ext/phar/cache_list.copyonwrite10.phar">
+    <testcase name="copyonwrite10-phar" classname="ext/phar/cache_list.copyonwrite10-phar">
     </testcase>
-    <testcase name="copyonwrite11.phar" classname="ext/phar/cache_list.copyonwrite11.phar">
+    <testcase name="copyonwrite11-phar" classname="ext/phar/cache_list.copyonwrite11-phar">
     </testcase>
-    <testcase name="copyonwrite12.phar" classname="ext/phar/cache_list.copyonwrite12.phar">
+    <testcase name="copyonwrite12-phar" classname="ext/phar/cache_list.copyonwrite12-phar">
     </testcase>
-    <testcase name="copyonwrite13.phar" classname="ext/phar/cache_list.copyonwrite13.phar">
+    <testcase name="copyonwrite13-phar" classname="ext/phar/cache_list.copyonwrite13-phar">
     </testcase>
-    <testcase name="copyonwrite14.phar" classname="ext/phar/cache_list.copyonwrite14.phar">
+    <testcase name="copyonwrite14-phar" classname="ext/phar/cache_list.copyonwrite14-phar">
     </testcase>
-    <testcase name="copyonwrite15.phar" classname="ext/phar/cache_list.copyonwrite15.phar">
+    <testcase name="copyonwrite15-phar" classname="ext/phar/cache_list.copyonwrite15-phar">
     </testcase>
-    <testcase name="copyonwrite16.phar" classname="ext/phar/cache_list.copyonwrite16.phar">
+    <testcase name="copyonwrite16-phar" classname="ext/phar/cache_list.copyonwrite16-phar">
     </testcase>
-    <testcase name="copyonwrite17.phar" classname="ext/phar/cache_list.copyonwrite17.phar">
+    <testcase name="copyonwrite17-phar" classname="ext/phar/cache_list.copyonwrite17-phar">
     </testcase>
-    <testcase name="copyonwrite18.phar" classname="ext/phar/cache_list.copyonwrite18.phar">
+    <testcase name="copyonwrite18-phar" classname="ext/phar/cache_list.copyonwrite18-phar">
     </testcase>
-    <testcase name="copyonwrite19.phar" classname="ext/phar/cache_list.copyonwrite19.phar">
+    <testcase name="copyonwrite19-phar" classname="ext/phar/cache_list.copyonwrite19-phar">
     </testcase>
-    <testcase name="copyonwrite2.phar" classname="ext/phar/cache_list.copyonwrite2.phar">
+    <testcase name="copyonwrite2-phar" classname="ext/phar/cache_list.copyonwrite2-phar">
     </testcase>
-    <testcase name="copyonwrite20.phar" classname="ext/phar/cache_list.copyonwrite20.phar">
+    <testcase name="copyonwrite20-phar" classname="ext/phar/cache_list.copyonwrite20-phar">
     </testcase>
-    <testcase name="copyonwrite21.phar" classname="ext/phar/cache_list.copyonwrite21.phar">
+    <testcase name="copyonwrite21-phar" classname="ext/phar/cache_list.copyonwrite21-phar">
     </testcase>
-    <testcase name="copyonwrite22.phar" classname="ext/phar/cache_list.copyonwrite22.phar">
+    <testcase name="copyonwrite22-phar" classname="ext/phar/cache_list.copyonwrite22-phar">
     </testcase>
-    <testcase name="copyonwrite23.phar" classname="ext/phar/cache_list.copyonwrite23.phar">
+    <testcase name="copyonwrite23-phar" classname="ext/phar/cache_list.copyonwrite23-phar">
     </testcase>
-    <testcase name="copyonwrite24.phar" classname="ext/phar/cache_list.copyonwrite24.phar">
+    <testcase name="copyonwrite24-phar" classname="ext/phar/cache_list.copyonwrite24-phar">
     </testcase>
-    <testcase name="copyonwrite25.phar" classname="ext/phar/cache_list.copyonwrite25.phar">
+    <testcase name="copyonwrite25-phar" classname="ext/phar/cache_list.copyonwrite25-phar">
     </testcase>
-    <testcase name="copyonwrite3.phar" classname="ext/phar/cache_list.copyonwrite3.phar">
+    <testcase name="copyonwrite3-phar" classname="ext/phar/cache_list.copyonwrite3-phar">
     </testcase>
-    <testcase name="copyonwrite4.phar" classname="ext/phar/cache_list.copyonwrite4.phar">
+    <testcase name="copyonwrite4-phar" classname="ext/phar/cache_list.copyonwrite4-phar">
     </testcase>
     <testcase name="copyonwrite4a" classname="ext/phar/cache_list.copyonwrite4a">
     </testcase>
-    <testcase name="copyonwrite5.phar" classname="ext/phar/cache_list.copyonwrite5.phar">
+    <testcase name="copyonwrite5-phar" classname="ext/phar/cache_list.copyonwrite5-phar">
     </testcase>
-    <testcase name="copyonwrite6.phar" classname="ext/phar/cache_list.copyonwrite6.phar">
+    <testcase name="copyonwrite6-phar" classname="ext/phar/cache_list.copyonwrite6-phar">
     </testcase>
-    <testcase name="copyonwrite7.phar" classname="ext/phar/cache_list.copyonwrite7.phar">
+    <testcase name="copyonwrite7-phar" classname="ext/phar/cache_list.copyonwrite7-phar">
     </testcase>
-    <testcase name="copyonwrite8.phar" classname="ext/phar/cache_list.copyonwrite8.phar">
+    <testcase name="copyonwrite8-phar" classname="ext/phar/cache_list.copyonwrite8-phar">
     </testcase>
-    <testcase name="copyonwrite9.phar" classname="ext/phar/cache_list.copyonwrite9.phar">
+    <testcase name="copyonwrite9-phar" classname="ext/phar/cache_list.copyonwrite9-phar">
     </testcase>
     <testcase name="frontcontroller1" classname="ext/phar/cache_list.frontcontroller1">
     </testcase>
@@ -14862,47 +14862,47 @@
     </testcase>
     <testcase name="exists_as_phar" classname="ext/phar/tar.exists_as_phar">
     </testcase>
-    <testcase name="frontcontroller1.phar" classname="ext/phar/tar.frontcontroller1.phar">
+    <testcase name="frontcontroller1-phar" classname="ext/phar/tar.frontcontroller1-phar">
     </testcase>
-    <testcase name="frontcontroller10.phar" classname="ext/phar/tar.frontcontroller10.phar">
+    <testcase name="frontcontroller10-phar" classname="ext/phar/tar.frontcontroller10-phar">
     </testcase>
-    <testcase name="frontcontroller11.phar" classname="ext/phar/tar.frontcontroller11.phar">
+    <testcase name="frontcontroller11-phar" classname="ext/phar/tar.frontcontroller11-phar">
     </testcase>
-    <testcase name="frontcontroller12.phar" classname="ext/phar/tar.frontcontroller12.phar">
+    <testcase name="frontcontroller12-phar" classname="ext/phar/tar.frontcontroller12-phar">
     </testcase>
-    <testcase name="frontcontroller13.phar" classname="ext/phar/tar.frontcontroller13.phar">
+    <testcase name="frontcontroller13-phar" classname="ext/phar/tar.frontcontroller13-phar">
     </testcase>
-    <testcase name="frontcontroller14.phar" classname="ext/phar/tar.frontcontroller14.phar">
+    <testcase name="frontcontroller14-phar" classname="ext/phar/tar.frontcontroller14-phar">
     </testcase>
-    <testcase name="frontcontroller15.phar" classname="ext/phar/tar.frontcontroller15.phar">
+    <testcase name="frontcontroller15-phar" classname="ext/phar/tar.frontcontroller15-phar">
     </testcase>
-    <testcase name="frontcontroller16.phar" classname="ext/phar/tar.frontcontroller16.phar">
+    <testcase name="frontcontroller16-phar" classname="ext/phar/tar.frontcontroller16-phar">
     </testcase>
-    <testcase name="frontcontroller17.phar" classname="ext/phar/tar.frontcontroller17.phar">
+    <testcase name="frontcontroller17-phar" classname="ext/phar/tar.frontcontroller17-phar">
     </testcase>
-    <testcase name="frontcontroller18.phar" classname="ext/phar/tar.frontcontroller18.phar">
+    <testcase name="frontcontroller18-phar" classname="ext/phar/tar.frontcontroller18-phar">
     </testcase>
-    <testcase name="frontcontroller19.phar" classname="ext/phar/tar.frontcontroller19.phar">
+    <testcase name="frontcontroller19-phar" classname="ext/phar/tar.frontcontroller19-phar">
     </testcase>
-    <testcase name="frontcontroller2.phar" classname="ext/phar/tar.frontcontroller2.phar">
+    <testcase name="frontcontroller2-phar" classname="ext/phar/tar.frontcontroller2-phar">
     </testcase>
-    <testcase name="frontcontroller20.phar" classname="ext/phar/tar.frontcontroller20.phar">
+    <testcase name="frontcontroller20-phar" classname="ext/phar/tar.frontcontroller20-phar">
     </testcase>
-    <testcase name="frontcontroller21.phar" classname="ext/phar/tar.frontcontroller21.phar">
+    <testcase name="frontcontroller21-phar" classname="ext/phar/tar.frontcontroller21-phar">
     </testcase>
-    <testcase name="frontcontroller3.phar" classname="ext/phar/tar.frontcontroller3.phar">
+    <testcase name="frontcontroller3-phar" classname="ext/phar/tar.frontcontroller3-phar">
     </testcase>
-    <testcase name="frontcontroller4.phar" classname="ext/phar/tar.frontcontroller4.phar">
+    <testcase name="frontcontroller4-phar" classname="ext/phar/tar.frontcontroller4-phar">
     </testcase>
-    <testcase name="frontcontroller5.phar" classname="ext/phar/tar.frontcontroller5.phar">
+    <testcase name="frontcontroller5-phar" classname="ext/phar/tar.frontcontroller5-phar">
     </testcase>
-    <testcase name="frontcontroller6.phar" classname="ext/phar/tar.frontcontroller6.phar">
+    <testcase name="frontcontroller6-phar" classname="ext/phar/tar.frontcontroller6-phar">
     </testcase>
-    <testcase name="frontcontroller7.phar" classname="ext/phar/tar.frontcontroller7.phar">
+    <testcase name="frontcontroller7-phar" classname="ext/phar/tar.frontcontroller7-phar">
     </testcase>
-    <testcase name="frontcontroller8.phar" classname="ext/phar/tar.frontcontroller8.phar">
+    <testcase name="frontcontroller8-phar" classname="ext/phar/tar.frontcontroller8-phar">
     </testcase>
-    <testcase name="frontcontroller9.phar" classname="ext/phar/tar.frontcontroller9.phar">
+    <testcase name="frontcontroller9-phar" classname="ext/phar/tar.frontcontroller9-phar">
     </testcase>
     <testcase name="links" classname="ext/phar/tar.links">
     </testcase>
@@ -15054,47 +15054,47 @@
     </testcase>
     <testcase name="exists_as_phar" classname="ext/phar/zip.exists_as_phar">
     </testcase>
-    <testcase name="frontcontroller1.phar" classname="ext/phar/zip.frontcontroller1.phar">
+    <testcase name="frontcontroller1-phar" classname="ext/phar/zip.frontcontroller1-phar">
     </testcase>
-    <testcase name="frontcontroller10.phar" classname="ext/phar/zip.frontcontroller10.phar">
+    <testcase name="frontcontroller10-phar" classname="ext/phar/zip.frontcontroller10-phar">
     </testcase>
-    <testcase name="frontcontroller11.phar" classname="ext/phar/zip.frontcontroller11.phar">
+    <testcase name="frontcontroller11-phar" classname="ext/phar/zip.frontcontroller11-phar">
     </testcase>
-    <testcase name="frontcontroller12.phar" classname="ext/phar/zip.frontcontroller12.phar">
+    <testcase name="frontcontroller12-phar" classname="ext/phar/zip.frontcontroller12-phar">
     </testcase>
-    <testcase name="frontcontroller13.phar" classname="ext/phar/zip.frontcontroller13.phar">
+    <testcase name="frontcontroller13-phar" classname="ext/phar/zip.frontcontroller13-phar">
     </testcase>
-    <testcase name="frontcontroller14.phar" classname="ext/phar/zip.frontcontroller14.phar">
+    <testcase name="frontcontroller14-phar" classname="ext/phar/zip.frontcontroller14-phar">
     </testcase>
-    <testcase name="frontcontroller15.phar" classname="ext/phar/zip.frontcontroller15.phar">
+    <testcase name="frontcontroller15-phar" classname="ext/phar/zip.frontcontroller15-phar">
     </testcase>
-    <testcase name="frontcontroller16.phar" classname="ext/phar/zip.frontcontroller16.phar">
+    <testcase name="frontcontroller16-phar" classname="ext/phar/zip.frontcontroller16-phar">
     </testcase>
-    <testcase name="frontcontroller17.phar" classname="ext/phar/zip.frontcontroller17.phar">
+    <testcase name="frontcontroller17-phar" classname="ext/phar/zip.frontcontroller17-phar">
     </testcase>
-    <testcase name="frontcontroller18.phar" classname="ext/phar/zip.frontcontroller18.phar">
+    <testcase name="frontcontroller18-phar" classname="ext/phar/zip.frontcontroller18-phar">
     </testcase>
-    <testcase name="frontcontroller19.phar" classname="ext/phar/zip.frontcontroller19.phar">
+    <testcase name="frontcontroller19-phar" classname="ext/phar/zip.frontcontroller19-phar">
     </testcase>
-    <testcase name="frontcontroller2.phar" classname="ext/phar/zip.frontcontroller2.phar">
+    <testcase name="frontcontroller2-phar" classname="ext/phar/zip.frontcontroller2-phar">
     </testcase>
-    <testcase name="frontcontroller20.phar" classname="ext/phar/zip.frontcontroller20.phar">
+    <testcase name="frontcontroller20-phar" classname="ext/phar/zip.frontcontroller20-phar">
     </testcase>
-    <testcase name="frontcontroller21.phar" classname="ext/phar/zip.frontcontroller21.phar">
+    <testcase name="frontcontroller21-phar" classname="ext/phar/zip.frontcontroller21-phar">
     </testcase>
-    <testcase name="frontcontroller3.phar" classname="ext/phar/zip.frontcontroller3.phar">
+    <testcase name="frontcontroller3-phar" classname="ext/phar/zip.frontcontroller3-phar">
     </testcase>
-    <testcase name="frontcontroller4.phar" classname="ext/phar/zip.frontcontroller4.phar">
+    <testcase name="frontcontroller4-phar" classname="ext/phar/zip.frontcontroller4-phar">
     </testcase>
-    <testcase name="frontcontroller5.phar" classname="ext/phar/zip.frontcontroller5.phar">
+    <testcase name="frontcontroller5-phar" classname="ext/phar/zip.frontcontroller5-phar">
     </testcase>
-    <testcase name="frontcontroller6.phar" classname="ext/phar/zip.frontcontroller6.phar">
+    <testcase name="frontcontroller6-phar" classname="ext/phar/zip.frontcontroller6-phar">
     </testcase>
-    <testcase name="frontcontroller7.phar" classname="ext/phar/zip.frontcontroller7.phar">
+    <testcase name="frontcontroller7-phar" classname="ext/phar/zip.frontcontroller7-phar">
     </testcase>
-    <testcase name="frontcontroller8.phar" classname="ext/phar/zip.frontcontroller8.phar">
+    <testcase name="frontcontroller8-phar" classname="ext/phar/zip.frontcontroller8-phar">
     </testcase>
-    <testcase name="frontcontroller9.phar" classname="ext/phar/zip.frontcontroller9.phar">
+    <testcase name="frontcontroller9-phar" classname="ext/phar/zip.frontcontroller9-phar">
     </testcase>
     <testcase name="getalias" classname="ext/phar/zip.getalias">
     </testcase>
@@ -15656,7 +15656,7 @@
     </testcase>
     <testcase name="ReflectionFunction_001" classname="ext/reflection.ReflectionFunction_001">
     </testcase>
-    <testcase name="ReflectionFunction_construct.001" classname="ext/reflection.ReflectionFunction_construct.001">
+    <testcase name="ReflectionFunction_construct-001" classname="ext/reflection.ReflectionFunction_construct-001">
     </testcase>
     <testcase name="ReflectionFunction_getClosureScopeClass" classname="ext/reflection.ReflectionFunction_getClosureScopeClass">
     </testcase>
@@ -15666,15 +15666,15 @@
     </testcase>
     <testcase name="ReflectionFunction_getClosure_error" classname="ext/reflection.ReflectionFunction_getClosure_error">
     </testcase>
-    <testcase name="ReflectionFunction_getDocComment.001" classname="ext/reflection.ReflectionFunction_getDocComment.001">
+    <testcase name="ReflectionFunction_getDocComment-001" classname="ext/reflection.ReflectionFunction_getDocComment-001">
     </testcase>
     <testcase name="ReflectionFunction_getExtension" classname="ext/reflection.ReflectionFunction_getExtension">
     </testcase>
     <testcase name="ReflectionFunction_getExtensionName" classname="ext/reflection.ReflectionFunction_getExtensionName">
     </testcase>
-    <testcase name="ReflectionFunction_getFileName.001" classname="ext/reflection.ReflectionFunction_getFileName.001">
+    <testcase name="ReflectionFunction_getFileName-001" classname="ext/reflection.ReflectionFunction_getFileName-001">
     </testcase>
-    <testcase name="ReflectionFunction_getFileName.002" classname="ext/reflection.ReflectionFunction_getFileName.002">
+    <testcase name="ReflectionFunction_getFileName-002" classname="ext/reflection.ReflectionFunction_getFileName-002">
     </testcase>
     <testcase name="ReflectionFunction_getNamespaceName" classname="ext/reflection.ReflectionFunction_getNamespaceName">
     </testcase>
@@ -15804,7 +15804,7 @@
     </testcase>
     <testcase name="ReflectionObject_isInternal_error" classname="ext/reflection.ReflectionObject_isInternal_error">
     </testcase>
-    <testcase name="ReflectionObject_isSubclassOf.002" classname="ext/reflection.ReflectionObject_isSubclassOf.002">
+    <testcase name="ReflectionObject_isSubclassOf-002" classname="ext/reflection.ReflectionObject_isSubclassOf-002">
     </testcase>
     <testcase name="ReflectionObject_isSubclassOf_basic" classname="ext/reflection.ReflectionObject_isSubclassOf_basic">
     </testcase>
@@ -15868,7 +15868,7 @@
     </testcase>
     <testcase name="ReflectionProperty_getDocComment_error" classname="ext/reflection.ReflectionProperty_getDocComment_error">
     </testcase>
-    <testcase name="ReflectionProperty_getModifiers.001" classname="ext/reflection.ReflectionProperty_getModifiers.001">
+    <testcase name="ReflectionProperty_getModifiers-001" classname="ext/reflection.ReflectionProperty_getModifiers-001">
     </testcase>
     <testcase name="ReflectionProperty_getModifiers_basic" classname="ext/reflection.ReflectionProperty_getModifiers_basic">
     </testcase>
